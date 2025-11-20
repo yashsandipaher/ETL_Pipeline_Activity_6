@@ -1,0 +1,202 @@
+{
+  "most_common_ingredients": {
+    "Cumin Seeds": 13,
+    "Salt": 11,
+    "Oil": 11,
+    "Garam Masala": 11,
+    "Onion": 10,
+    "Water": 10,
+    "Green Chili": 10,
+    "Mutton": 9,
+    "Coriander Leaves": 8,
+    "Paneer": 8,
+    "Ginger": 7,
+    "Curd": 7,
+    "Garlic": 7,
+    "Turmeric": 7,
+    "Coriander Powder": 7,
+    "Chicken": 6,
+    "Red Chili Powder": 6,
+    "Tomato": 6,
+    "Eggs": 5,
+    "Butter": 5
+  },
+  "avg_prep_time": 18.714285714285715,
+  "avg_cook_time": 38.476190476190474,
+  "difficulty_distribution": {
+    "Easy": 9,
+    "Hard": 7,
+    "Medium": 5
+  },
+  "most_interacted": {
+    "1mJKMgVypZF3qyhe23j1": 3,
+    "5kW5z5FlCYsoFQws1rJb": 3,
+    "c5bmNfkntlqb5cKboZjL": 3,
+    "U2EaO30Z9H2O0ThrBFeI": 3,
+    "EY0cs7ax7EVrJgRoJD8n": 3,
+    "uRdNGeM2IyHspFZKvsMz": 3,
+    "zOq2HOI9jXt1E9EOVHD0": 3,
+    "kpP2tmzt8N3Cvd5JFLN9": 3,
+    "UYzsDvSJnbvST8yFwANF": 3,
+    "EOj9070xMySf5q6Q5J0v": 2,
+    "9Rd67BXktRdhNYMTNq1A": 2,
+    "4zkGDlwt2UjFHkNDaWlp": 2,
+    "KIFAKNXYuN3xTfSmbmlI": 2,
+    "pNDhdR4spbnqyc4UWSfp": 2,
+    "oS19vgtQEqCEXzuRkPfW": 2,
+    "GE6MLrwidHG2MVaRVtoY": 2,
+    "mB8cfkstrpYXT6eVoQaO": 2,
+    "y4SdpnmVIblTDaN0cXir": 2,
+    "UNRLLDG7rHhA9EstcBzx": 1,
+    "clhc5waXOX73lv6cM604": 1
+  },
+  "prep_vs_rating_corr": -0.053092549560355654,
+  "ingredients_high_rating": {
+    "Chicken Masala": 5.0,
+    "Jeera": 5.0,
+    "Turmeric Powder": 5.0,
+    "Ginger-Garlic Paste": 5.0,
+    "Rice": 3.857142857142857,
+    "Salt": 3.772727272727273,
+    "Red Chili Powder": 3.6666666666666665,
+    "Mutton": 3.6363636363636362,
+    "Cumin Seeds": 3.625,
+    "Eggs": 3.5454545454545454,
+    "Curd": 3.5384615384615383,
+    "Tomato": 3.5,
+    "Garam Masala": 3.4166666666666665,
+    "Garlic": 3.411764705882353,
+    "Paneer": 3.4,
+    "Chicken": 3.3636363636363638,
+    "Coriander Powder": 3.3333333333333335,
+    "Oil": 3.3076923076923075,
+    "Onion": 3.260869565217391,
+    "Turmeric": 3.25
+  },
+  "top_rated_recipes": [
+    {
+      "recipe_id": "UNRLLDG7rHhA9EstcBzx",
+      "title": "Kadai Paneer",
+      "rating": 5.0
+    },
+    {
+      "recipe_id": "wL3kKBMkvQFg8sgUq1sv",
+      "title": "Chicken Curry",
+      "rating": 5.0
+    },
+    {
+      "recipe_id": "y4SdpnmVIblTDaN0cXir",
+      "title": "Paneer Butter Masala",
+      "rating": 4.5
+    },
+    {
+      "recipe_id": "GE6MLrwidHG2MVaRVtoY",
+      "title": "Mutton Gravy",
+      "rating": 4.5
+    },
+    {
+      "recipe_id": "EOj9070xMySf5q6Q5J0v",
+      "title": "Rajma Chawal",
+      "rating": 4.0
+    },
+    {
+      "recipe_id": "UYzsDvSJnbvST8yFwANF",
+      "title": "Veg Pulao",
+      "rating": 4.0
+    },
+    {
+      "recipe_id": "kpP2tmzt8N3Cvd5JFLN9",
+      "title": "Lemon Rice",
+      "rating": 4.0
+    },
+    {
+      "recipe_id": "KIFAKNXYuN3xTfSmbmlI",
+      "title": "Prawn Masala",
+      "rating": 4.0
+    },
+    {
+      "recipe_id": "c5bmNfkntlqb5cKboZjL",
+      "title": "Masala Dosa",
+      "rating": 3.6666666666666665
+    },
+    {
+      "recipe_id": "uRdNGeM2IyHspFZKvsMz",
+      "title": "Chicken Korma",
+      "rating": 3.6666666666666665
+    }
+  ],
+  "steps_count_distribution": {
+    "count": 21.0,
+    "mean": 9.047619047619047,
+    "std": 3.2783561502098957,
+    "min": 5.0,
+    "25%": 6.0,
+    "50%": 10.0,
+    "75%": 11.0,
+    "max": 16.0
+  },
+  "recipes_most_comments": {
+    "5kW5z5FlCYsoFQws1rJb": 2,
+    "EY0cs7ax7EVrJgRoJD8n": 2,
+    "9Rd67BXktRdhNYMTNq1A": 2,
+    "zOq2HOI9jXt1E9EOVHD0": 2,
+    "uRdNGeM2IyHspFZKvsMz": 2,
+    "UYzsDvSJnbvST8yFwANF": 2,
+    "U2EaO30Z9H2O0ThrBFeI": 2,
+    "c5bmNfkntlqb5cKboZjL": 2,
+    "pNDhdR4spbnqyc4UWSfp": 2,
+    "oS19vgtQEqCEXzuRkPfW": 2
+  },
+  "longest_total_time": [
+    {
+      "recipe_id": "1mJKMgVypZF3qyhe23j1",
+      "title": "Kadai Paneer",
+      "total_time": 80
+    },
+    {
+      "recipe_id": "9Rd67BXktRdhNYMTNq1A",
+      "title": "Chicken Biryani",
+      "total_time": 80
+    },
+    {
+      "recipe_id": "5kW5z5FlCYsoFQws1rJb",
+      "title": "Sambar",
+      "total_time": 71
+    },
+    {
+      "recipe_id": "oS19vgtQEqCEXzuRkPfW",
+      "title": "Rajma Chawal",
+      "total_time": 69
+    },
+    {
+      "recipe_id": "pNDhdR4spbnqyc4UWSfp",
+      "title": "Rajma Chawal",
+      "total_time": 68
+    },
+    {
+      "recipe_id": "zOq2HOI9jXt1E9EOVHD0",
+      "title": "Chole Bhature",
+      "total_time": 65
+    },
+    {
+      "recipe_id": "UNRLLDG7rHhA9EstcBzx",
+      "title": "Kadai Paneer",
+      "total_time": 64
+    },
+    {
+      "recipe_id": "mB8cfkstrpYXT6eVoQaO",
+      "title": "Prawn Masala",
+      "total_time": 64
+    },
+    {
+      "recipe_id": "GE6MLrwidHG2MVaRVtoY",
+      "title": "Mutton Gravy",
+      "total_time": 64
+    },
+    {
+      "recipe_id": "UYzsDvSJnbvST8yFwANF",
+      "title": "Veg Pulao",
+      "total_time": 63
+    }
+  ]
+}
