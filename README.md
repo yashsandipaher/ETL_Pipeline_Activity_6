@@ -1,4 +1,5 @@
 # ETL_Pipeline_Activity_6
+<<<<<<< HEAD
 
 This project is a complete data engineering pipeline built on Firebase Firestore. It collects recipe data, exports it, transforms it into clean CSV files, validates the quality of the data, and generates analytics insights.
 
@@ -129,3 +130,5 @@ Querying huge subcollections may cost more reads.
 
 Local CSV files must exist
 If export step fails, analytics won’t run.
+=======
+>>>>>>> bc30ae0d7a46f5c07ada4e8086b601bc56a9a0d1
