@@ -112,6 +112,20 @@ The pipeline does:
 
 <img width="200" height="200" alt="difficulty_distribution" src="https://github.com/user-attachments/assets/310bc248-858d-4936-bac5-2a56015c04a1" /> <img width="200" height="200" alt="prep_vs_rating" src="https://github.com/user-attachments/assets/92cde96d-e47e-491d-9026-60c1ca729931" /> <img width="200" height="200" alt="top_ingredients" src="https://github.com/user-attachments/assets/e70d5a86-1d5d-4aff-98ff-02e401b336bc" />
 
+## **ALTERNATIVE**
+## Full Pipeline Runner (run_pipeline.py)
+Instead of running each script manually (Extract → Transform → Validate → Analytics),\
+you can execute the entire ETL + Analytics pipeline in one command using:
+> python run_pipeline.py
+
+The run_pipeline.py file automates all pipeline steps in the correct order:
+- Export Firestore data
+- Transform JSON → CSV
+- Validate CSV data
+- Generate analytics & charts
+It also prints the status of each step in the console and logs detailed execution messages inside pipeline.log.
+
+
 
 
 # **Firestore Source Data Setup**
