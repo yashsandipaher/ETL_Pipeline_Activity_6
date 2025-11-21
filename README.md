@@ -1,134 +1,128 @@
 # ETL_Pipeline_Activity_6
-<<<<<<< HEAD
-
 This project is a complete data engineering pipeline built on Firebase Firestore. It collects recipe data, exports it, transforms it into clean CSV files, validates the quality of the data, and generates analytics insights.
 
 The pipeline does:
-1.Export Firestore collections into JSON
-2.Transform the JSON into clean CSV files
-3.Validate the transformed data
-4.Run analytics to generate insights + charts
-5.Store results as CSV, JSON, charts
+1. Export Firestore collections into JSON
+2. Transform the JSON into clean CSV files
+3. Validate the transformed data
+4. Run analytics to generate insights + charts
+5. Store results as CSV, JSON, charts
 
-Data Model -
+# **Data Model -**
 
-1. Recipe (Root Collection)
+<img width="5804" height="2935" alt="ERD_Diagram" src="https://github.com/user-attachments/assets/265cebc8-f0fc-4c74-b0c9-d667923f6f71" />
+<img width="2471" height="1318" alt="image" src="https://github.com/user-attachments/assets/e268da52-197c-4fc1-9358-d180906a2a8b" />
 
-This is the main collection where all recipes are stored.
-Each recipe document contains basic recipe information such as the title, description, ingredients, steps, time required, difficulty, etc.
+### 1. Recipe (Root Collection)
+  This is the main collection where all recipes are stored.\
+  Each recipe document contains basic recipe information such as the title, description, ingredients, steps, time required, difficulty, etc.
 
-2. Interaction (Subcollection inside each Recipe)
+### 2. Interaction (Subcollection inside each Recipe)
+  Inside each recipe, there is an Interaction subcollection.\
+  This subcollection stores actions performed by users on that specific recipe, such as:\
+  views,likes,ratings,comments (cook notes)
 
-Inside each recipe, there is an Interaction subcollection.
-This subcollection stores actions performed by users on that specific recipe, such as:
-views,likes,ratings,comments (cook notes)
+-------- Why is it a subcollection? -------------\
+  Because each recipe can have many interactions, and storing them under the recipe:\
+  keeps recipe-related activity grouped together\
+  makes queries like “get interactions for one recipe” very fast\
+  avoids scanning thousands of interactions across all recipes
 
--------- Why is it a subcollection? -------------
-Because each recipe can have many interactions, and storing them under the recipe:
-keeps recipe-related activity grouped together
-makes queries like “get interactions for one recipe” very fast
-avoids scanning thousands of interactions across all recipes
+### 3. Users (Root Collection)
+  This collection stores information about all users.\
+  Each user is a document containing basic profile details.
 
-3. Users (Root Collection)
+### 4. Activities (Subcollection inside each User)
+  Each user has an Activities subcollection.\
+  This stores actions that the user performs across any recipe, such as:\
+  viewed a recipe,liked a recipe,added a note,rated a recipe
 
-This collection stores information about all users.
-Each user is a document containing basic profile details.
+# **How to Run the Pipeline -**
+### Step 1 - Install Dependencies
+> pip install firebase-admin pandas matplotlib numpy google-cloud-firestore
 
-4. Activities (Subcollection inside each User)
+### Step 2 — Export Firestore Data
+> python firestore_export.py\
+> Output → data_export/recipes.json & users.json
 
-Each user has an Activities subcollection.
-This stores actions that the user performs across any recipe, such as:
-viewed a recipe,liked a recipe,added a note,rated a recipe
+### Step 3 — Transform JSON → CSV
+> python transform_to_csv.py\
+> Output → recipe.csv, ingredients.csv, steps.csv, interactions.csv
 
-How to Run the Pipeline -
-Step 1 - Install Dependencies
-pip install firebase-admin pandas matplotlib numpy google-cloud-firestore
+### Step 4 — Validate CSV Data
+> python validator.py\
+> Output → validation_report.json (lists valid + invalid recipes)
 
-Step 2 — Export Firestore Data
-python firestore_export.py
-Output → data_export/recipes.json & users.json
+### Step 5 — Run Analytics
+> python analytics.py
 
-Step 3 — Transform JSON → CSV
-python transform_to_csv.py
-Output → recipe.csv, ingredients.csv, steps.csv, interactions.csv
+# **Outputs -**
+> Charts → analytics/charts/\
+> Summary → analytics/analytics_summary.json\
+> CSV → top ingredients, top rated recipes
 
-Step 4 — Validate CSV Data
-python validator.py
-Output → validation_report.json (lists valid + invalid recipes)
+<img width="200" height="200" alt="difficulty_distribution" src="https://github.com/user-attachments/assets/310bc248-858d-4936-bac5-2a56015c04a1" /> <img width="200" height="200" alt="prep_vs_rating" src="https://github.com/user-attachments/assets/92cde96d-e47e-491d-9026-60c1ca729931" /> <img width="200" height="200" alt="top_ingredients" src="https://github.com/user-attachments/assets/e70d5a86-1d5d-4aff-98ff-02e401b336bc" />
 
-Step 5 — Run Analytics
-python analytics.py
 
-Outputs -
 
-Charts → analytics/charts/
-Summary → analytics/analytics_summary.json
-CSV → top ingredients, top rated recipes
 
-5. ETL Process
 
-E → Extract
+# **ETL Process**
 
-firestore_export.py
-Reads all Recipes & Interactions
-Reads all Users
-Saves as JSON
+## E → Extract
+**firestore_export.py\** \
+  Reads all Recipes & Interactions\
+  Reads all Users\
+  Saves as JSON
 
-T → Transform
+## T → Transform
+**transform_to_csv.py\** \
+  Converts JSON to clean CSV tables\
+  Converts durations to seconds\
+  Fixes missing fields\
+  Creates IDs when missing
 
-transform_to_csv.py
-Converts JSON to clean CSV tables
-Converts durations to seconds
-Fixes missing fields
-Creates IDs when missing
+## L → Load
+  Not storing back into Firestore → loading means\
+  “prepare for analytics in CSV format”.
 
-L → Load
+## Validate
+**validator.py checks:\** \
+  Missing fields\
+  Invalid difficulty\
+  Prep/Cook/Total time logic\
+  Non-positive ingredient quantity\
+  Rating range (0–5)
 
-Not storing back into Firestore → loading means
-“prepare for analytics in CSV format”.
+## Analyze
+**analytics.py creates:\** \
+  Most common ingredients\
+  Difficulty distribution\
+  Correlation between prep time and rating\
+  Top rated recipes\
+  Recipe step distribution\
+  Charts
 
-Validate
+# **Insights Summary (Example Output)**
 
-validator.py checks:
-Missing fields
-Invalid difficulty
-Prep/Cook/Total time logic
-Non-positive ingredient quantity
-Rating range (0–5)
+### The analytics generates:
 
-Analyze
+- Top 20 most common ingredients
+- Average prep time & cook time
+- Most interacted recipes
+- Top-rated recipes
+- Ingredients associated with high ratings
+- Correlation between prep time & rating
+- Recipes with most comments
+- Longest total time recipes
 
-analytics.py creates:
-Most common ingredients
-Difficulty distribution
-Correlation between prep time and rating
-Top rated recipes
-Recipe step distribution
-Charts
+### You can find all results in:
+> analytics/analytics_summary.json
 
-6. Insights Summary (Example Output)
+# **Known Constraints / Limitations**
 
-The analytics generates:
-
-Top 20 most common ingredients
-Average prep time & cook time
-Most interacted recipes
-Top-rated recipes
-Ingredients associated with high ratings
-Correlation between prep time & rating
-Recipes with most comments
-Longest total time recipes
-
-You can find all results in:
-analytics/analytics_summary.json
-
-7. Known Constraints / Limitations
-
-Firestore limitations
-Firestore does not support joins → therefore, interactions are grouped under recipes.
-Querying huge subcollections may cost more reads.
-
-Local CSV files must exist
-If export step fails, analytics won’t run.
-=======
->>>>>>> bc30ae0d7a46f5c07ada4e8086b601bc56a9a0d1
+### Firestore limitations
+  Firestore does not support joins → therefore, interactions are grouped under recipes.\
+  Querying huge subcollections may cost more reads.
+### Local CSV files must exist
+  If export step fails, analytics won’t run.
