@@ -34,6 +34,8 @@ The pipeline does:
 
 <img width="6096" height="2117" alt="ERD_Diagram" src="https://github.com/user-attachments/assets/2050160c-5930-49b8-9e00-cce3d8a6197f" />
 <img width="2474" height="1100" alt="image" src="https://github.com/user-attachments/assets/e66c5028-d7d1-41d2-8f9a-fd68cc5297bb" />
+<img width="2880" height="1361" alt="file_execution_structure" src="https://github.com/user-attachments/assets/933bc1d7-317b-498b-9086-65748e69ff8e" />
+
 
 ## Core Architecture Highlights
 - **Ingredients and Steps stored as Array of Maps (NOT Subcollections)**\
