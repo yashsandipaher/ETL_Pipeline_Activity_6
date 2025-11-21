@@ -59,11 +59,9 @@ def validate_recipes(
     for rid, rec in recipes.items():
         errors = []
 
-        # Required Title
         if not rec.get("title"):
             errors.append("Missing Title")
 
-        # Time Validations
         try:
             prep = float(rec.get("prep_time")) if rec.get("prep_time") else None
             cook = float(rec.get("cook_time")) if rec.get("cook_time") else None
@@ -84,12 +82,11 @@ def validate_recipes(
                 if total < prep + cook:
                     errors.append("TotalTime < PrepTime + CookTime")
 
-        # Difficulty validation
+
         diff = (rec.get("difficulty") or "").strip()
         if diff not in VALID_DIFFICULTY:
             errors.append(f"Invalid Difficulty: {diff}")
 
-        # Ingredients validation
         if len(ingredients[rid]) == 0:
             errors.append("No ingredients found")
         else:
@@ -102,11 +99,9 @@ def validate_recipes(
                         if float(qty) <= 0:
                             errors.append(f"Ingredient quantity must be positive: {qty}")
 
-        # Steps validation
         if len(steps[rid]) == 0:
             errors.append("No steps found")
 
-        # Interactions validation
         for inter in interactions.get(rid, []):
             rstr = inter.get("rating")
             if rstr:
@@ -117,20 +112,16 @@ def validate_recipes(
                 except:
                     errors.append(f"Invalid interaction rating: {rstr}")
 
-        # Append to report
         if errors:
             report["invalid_records"].append({"recipe_id": rid, "errors": errors})
         else:
             report["valid_records"].append(rid)
 
-    # Summary update
     report["summary"]["valid_recipes"] = len(report["valid_records"])
     report["summary"]["invalid_recipes"] = len(report["invalid_records"])
 
-    # Output directory
     os.makedirs("data_validation", exist_ok=True)
 
-    # Write JSON report
     with open("data_validation/validation_report.json", "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2)
 
