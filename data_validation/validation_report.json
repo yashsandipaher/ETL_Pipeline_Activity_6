@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "total_recipes": 21,
+    "valid_recipes": 17,
+    "invalid_recipes": 4
+  },
+  "invalid_records": [
+    {
+      "recipe_id": "905Q4qo6tlak8b8qrzpy",
+      "errors": [
+        "TotalTime < PrepTime + CookTime"
+      ]
+    },
+    {
+      "recipe_id": "IiiIkbbKLrMILKunMYHR",
+      "errors": [
+        "TotalTime < PrepTime + CookTime"
+      ]
+    },
+    {
+      "recipe_id": "UqWoRPSQVoKOc8P5Y2RV",
+      "errors": [
+        "TotalTime < PrepTime + CookTime"
+      ]
+    },
+    {
+      "recipe_id": "grHTuHOxHjO3hY9Y4zZn",
+      "errors": [
+        "TotalTime < PrepTime + CookTime"
+      ]
+    }
+  ],
+  "valid_records": [
+    "39wvcQnBytFYF6YXbiIo",
+    "4zP7vn1OYed2YDOriICA",
+    "Dt3Jfws8NBhTVqeDIA3G",
+    "GePcJizGnj1qJOb9xy0f",
+    "HABfQ3LK5WR3RugO1dfj",
+    "MptdCiisxT5vtXnjirhr",
+    "P3RaESdaMYlTisxhy1pF",
+    "V5Wu86B1goNhoZpF6Tag",
+    "axJieIpmJDF7LS6I9wSN",
+    "bPMoOifAwNeTqMzfdyc7",
+    "ccmK2alRQMhmkWQbazI5",
+    "es2cAjXAobvyWdLb8uDg",
+    "ivjyKsILOvEyUqqcprTv",
+    "kQCF1FDd6FhOFRgGCt5n",
+    "lZQ5vz0gWXqTTBglSMYW",
+    "q7tRKrF8cbiuUzbgRime",
+    "ztDF1BzIylk9Q86dkett"
+  ]
+}

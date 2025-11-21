@@ -1,0 +1,202 @@
+{
+  "most_common_ingredients": {
+    "Coriander Leaves": 12,
+    "Chicken": 11,
+    "Garam Masala": 11,
+    "Ginger": 11,
+    "Turmeric": 11,
+    "Tomato": 10,
+    "Oil": 9,
+    "Water": 8,
+    "Coriander Powder": 7,
+    "Salt": 7,
+    "Butter": 7,
+    "Eggs": 6,
+    "Onion": 6,
+    "Paneer": 6,
+    "Curd": 6,
+    "Cumin Seeds": 6,
+    "Rice": 5,
+    "Mutton": 5,
+    "Garlic": 5,
+    "Green Chili": 4
+  },
+  "avg_prep_time": 18.047619047619047,
+  "avg_cook_time": 31.952380952380953,
+  "difficulty_distribution": {
+    "Medium": 8,
+    "Hard": 7,
+    "Easy": 6
+  },
+  "most_interacted": {
+    "grHTuHOxHjO3hY9Y4zZn": 3,
+    "P3RaESdaMYlTisxhy1pF": 3,
+    "bPMoOifAwNeTqMzfdyc7": 3,
+    "39wvcQnBytFYF6YXbiIo": 3,
+    "kQCF1FDd6FhOFRgGCt5n": 3,
+    "lZQ5vz0gWXqTTBglSMYW": 3,
+    "GePcJizGnj1qJOb9xy0f": 3,
+    "axJieIpmJDF7LS6I9wSN": 2,
+    "905Q4qo6tlak8b8qrzpy": 2,
+    "V5Wu86B1goNhoZpF6Tag": 2,
+    "UqWoRPSQVoKOc8P5Y2RV": 2,
+    "ivjyKsILOvEyUqqcprTv": 1,
+    "ztDF1BzIylk9Q86dkett": 1,
+    "IiiIkbbKLrMILKunMYHR": 1,
+    "4zP7vn1OYed2YDOriICA": 1,
+    "es2cAjXAobvyWdLb8uDg": 1,
+    "ccmK2alRQMhmkWQbazI5": 1,
+    "q7tRKrF8cbiuUzbgRime": 1,
+    "HABfQ3LK5WR3RugO1dfj": 1,
+    "MptdCiisxT5vtXnjirhr": 1
+  },
+  "prep_vs_rating_corr": -0.16219155584178094,
+  "ingredients_high_rating": {
+    "Chicken Masala": 5.0,
+    "Jeera": 5.0,
+    "Turmeric Powder": 5.0,
+    "Ginger-Garlic Paste": 5.0,
+    "Paneer": 3.7,
+    "Salt": 3.5714285714285716,
+    "Coriander Leaves": 3.5,
+    "Tomato": 3.473684210526316,
+    "Water": 3.272727272727273,
+    "Garam Masala": 3.1052631578947367,
+    "Coriander Powder": 3.0,
+    "Chicken": 3.0,
+    "Ginger": 3.0,
+    "Turmeric": 2.96,
+    "Onion": 2.9,
+    "Garlic": 2.75,
+    "Mutton": 2.75,
+    "Cumin Seeds": 2.7142857142857144,
+    "Eggs": 2.7142857142857144,
+    "Rice": 2.5714285714285716
+  },
+  "top_rated_recipes": [
+    {
+      "recipe_id": "ztDF1BzIylk9Q86dkett",
+      "title": "Lemon Rice",
+      "rating": 5.0
+    },
+    {
+      "recipe_id": "q7tRKrF8cbiuUzbgRime",
+      "title": "Chicken Curry",
+      "rating": 5.0
+    },
+    {
+      "recipe_id": "V5Wu86B1goNhoZpF6Tag",
+      "title": "Dal Tadka",
+      "rating": 4.5
+    },
+    {
+      "recipe_id": "HABfQ3LK5WR3RugO1dfj",
+      "title": "Lemon Rice",
+      "rating": 4.0
+    },
+    {
+      "recipe_id": "4zP7vn1OYed2YDOriICA",
+      "title": "Egg Fried Rice",
+      "rating": 4.0
+    },
+    {
+      "recipe_id": "kQCF1FDd6FhOFRgGCt5n",
+      "title": "Egg Curry",
+      "rating": 4.0
+    },
+    {
+      "recipe_id": "39wvcQnBytFYF6YXbiIo",
+      "title": "Egg Fried Rice",
+      "rating": 3.6666666666666665
+    },
+    {
+      "recipe_id": "UqWoRPSQVoKOc8P5Y2RV",
+      "title": "Chole Bhature",
+      "rating": 3.5
+    },
+    {
+      "recipe_id": "bPMoOifAwNeTqMzfdyc7",
+      "title": "Fish Fry",
+      "rating": 3.3333333333333335
+    },
+    {
+      "recipe_id": "P3RaESdaMYlTisxhy1pF",
+      "title": "Vegetable Biryani",
+      "rating": 3.0
+    }
+  ],
+  "steps_count_distribution": {
+    "count": 21.0,
+    "mean": 8.523809523809524,
+    "std": 2.8569047519833,
+    "min": 5.0,
+    "25%": 7.0,
+    "50%": 7.0,
+    "75%": 10.0,
+    "max": 16.0
+  },
+  "recipes_most_comments": {
+    "grHTuHOxHjO3hY9Y4zZn": 2,
+    "kQCF1FDd6FhOFRgGCt5n": 2,
+    "axJieIpmJDF7LS6I9wSN": 2,
+    "39wvcQnBytFYF6YXbiIo": 2,
+    "V5Wu86B1goNhoZpF6Tag": 2,
+    "UqWoRPSQVoKOc8P5Y2RV": 2,
+    "IiiIkbbKLrMILKunMYHR": 1,
+    "ztDF1BzIylk9Q86dkett": 1,
+    "ivjyKsILOvEyUqqcprTv": 1,
+    "P3RaESdaMYlTisxhy1pF": 1
+  },
+  "longest_total_time": [
+    {
+      "recipe_id": "Dt3Jfws8NBhTVqeDIA3G",
+      "title": "Lemon Rice",
+      "total_time": 80
+    },
+    {
+      "recipe_id": "es2cAjXAobvyWdLb8uDg",
+      "title": "Sambar",
+      "total_time": 77
+    },
+    {
+      "recipe_id": "kQCF1FDd6FhOFRgGCt5n",
+      "title": "Egg Curry",
+      "total_time": 77
+    },
+    {
+      "recipe_id": "lZQ5vz0gWXqTTBglSMYW",
+      "title": "Mutton Gravy",
+      "total_time": 71
+    },
+    {
+      "recipe_id": "GePcJizGnj1qJOb9xy0f",
+      "title": "Bhindi Masala",
+      "total_time": 70
+    },
+    {
+      "recipe_id": "ccmK2alRQMhmkWQbazI5",
+      "title": "Mutton Gravy",
+      "total_time": 66
+    },
+    {
+      "recipe_id": "bPMoOifAwNeTqMzfdyc7",
+      "title": "Fish Fry",
+      "total_time": 65
+    },
+    {
+      "recipe_id": "39wvcQnBytFYF6YXbiIo",
+      "title": "Egg Fried Rice",
+      "total_time": 65
+    },
+    {
+      "recipe_id": "UqWoRPSQVoKOc8P5Y2RV",
+      "title": "Chole Bhature",
+      "total_time": 60
+    },
+    {
+      "recipe_id": "q7tRKrF8cbiuUzbgRime",
+      "title": "Chicken Curry",
+      "total_time": 60
+    }
+  ]
+}

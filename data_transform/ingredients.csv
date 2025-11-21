@@ -1,0 +1,161 @@
+ingredient_id,recipe_id,name,quantity,unit,optional
+8548b418-15f0-4735-b69b-88569910d22b,39wvcQnBytFYF6YXbiIo,Tomato,109,pieces,False
+a8ac8ade-3116-434b-90cd-d1bcdd48a24e,39wvcQnBytFYF6YXbiIo,Salt,439,cups,False
+92fa5fc2-dc99-4e15-be8e-867d52f6cc5e,39wvcQnBytFYF6YXbiIo,Garam Masala,18,ml,True
+155ecd83-c734-41d3-af43-9e950df71995,39wvcQnBytFYF6YXbiIo,Water,78,grams,False
+8c5ca17e-a4be-4e19-89f7-f1c2fc40f4d8,39wvcQnBytFYF6YXbiIo,Coriander Powder,138,tsp,False
+3517bfe1-848c-47b9-b292-ed2ab32b9a07,39wvcQnBytFYF6YXbiIo,Onion,74,pieces,True
+4a050bf8-4d1a-4e10-833e-5eb1909be0a9,4zP7vn1OYed2YDOriICA,Rice,250,tbsp,False
+3690666e-c65e-4f7d-827e-4acaa4d2b555,4zP7vn1OYed2YDOriICA,Water,294,ml,True
+8e5cf7b1-cbfb-4d48-905f-0edbd7a7d1c7,4zP7vn1OYed2YDOriICA,Chicken,93,pieces,True
+89872171-e37e-4c5d-b9fd-bc86b2fcbd3f,4zP7vn1OYed2YDOriICA,Coriander Leaves,356,tbsp,True
+a5cc0060-237e-4d70-9ef9-5212d1a82d27,4zP7vn1OYed2YDOriICA,Coriander Leaves,363,grams,False
+c4b2fdd5-75fe-4c4e-9f21-628b39644f57,4zP7vn1OYed2YDOriICA,Paneer,268,ml,True
+3979547e-94e6-45cb-8c1c-b4621dc34717,4zP7vn1OYed2YDOriICA,Coriander Powder,290,pieces,True
+8f73e6d6-6545-4783-884b-9a5d3ac80724,4zP7vn1OYed2YDOriICA,Coriander Leaves,12,ml,True
+b5101db2-b1f3-49d1-8e1d-3b4df5d610ea,4zP7vn1OYed2YDOriICA,Chicken,477,tbsp,False
+2617e577-140e-476d-ad6a-7522246fdea3,4zP7vn1OYed2YDOriICA,Garam Masala,319,tbsp,False
+de66cc5c-2a13-470a-904c-8e4d9452fc24,905Q4qo6tlak8b8qrzpy,Green Chili,61,tsp,True
+810c30e0-3019-4fb4-8e91-8f111d6421ee,905Q4qo6tlak8b8qrzpy,Eggs,259,grams,False
+2c1cd409-4648-44c9-8c4f-5ae95adb0b5c,905Q4qo6tlak8b8qrzpy,Onion,325,grams,False
+91737ce2-2bc7-4dfe-9118-3c2fe86b886b,905Q4qo6tlak8b8qrzpy,Curd,243,tbsp,False
+04e19280-57cc-443f-84ab-b978d26f089e,905Q4qo6tlak8b8qrzpy,Curd,388,tbsp,True
+563a1831-d4f3-4059-ab0c-d5632aafe461,905Q4qo6tlak8b8qrzpy,Oil,467,tsp,True
+bd8bad3e-8dec-471e-a85e-21982c1dfdff,905Q4qo6tlak8b8qrzpy,Ginger,379,pieces,True
+34eed548-0794-4e3f-9dd0-838410208fb7,905Q4qo6tlak8b8qrzpy,Butter,295,tsp,False
+c67cb221-5dfe-4495-981f-0587ac94f299,Dt3Jfws8NBhTVqeDIA3G,Eggs,315,tbsp,False
+d630576f-f8c3-4c9a-ba5f-c3af8dcf14ba,Dt3Jfws8NBhTVqeDIA3G,Garam Masala,277,pieces,False
+a1dee94d-ea52-4c3e-b012-6584895bc55e,Dt3Jfws8NBhTVqeDIA3G,Rice,170,grams,False
+a7a0eb7e-3a74-4cc5-b24f-7f036ef71451,Dt3Jfws8NBhTVqeDIA3G,Oil,289,tsp,True
+dba4c45e-380b-44cd-9d57-09d1f5f1e418,Dt3Jfws8NBhTVqeDIA3G,Chicken,234,pieces,True
+7455272d-3fc7-49cc-be08-a984335bfe1e,GePcJizGnj1qJOb9xy0f,Chicken,179,pieces,False
+96f58979-c0ca-4560-a748-00887a91837f,GePcJizGnj1qJOb9xy0f,Green Chili,279,grams,True
+11e21674-8898-4ac3-a67a-96cb46097803,GePcJizGnj1qJOb9xy0f,Turmeric,429,grams,False
+3b0ea706-5614-4b40-9895-7aa655daa377,GePcJizGnj1qJOb9xy0f,Turmeric,214,pieces,False
+55020002-d41a-46d6-86fa-bd805be76cf2,GePcJizGnj1qJOb9xy0f,Coriander Powder,276,ml,True
+274f4222-8397-4e18-a7f5-bb1c6f3f82f3,GePcJizGnj1qJOb9xy0f,Rice,33,tsp,True
+d06ef3b3-f2e4-432f-b6da-ce4718650bcc,GePcJizGnj1qJOb9xy0f,Garlic,363,ml,True
+0d4857f2-1acf-4680-b693-c2d7bac10745,GePcJizGnj1qJOb9xy0f,Garlic,120,ml,True
+a8156805-bfc7-49cb-91ef-7d62b7d51fbe,GePcJizGnj1qJOb9xy0f,Garam Masala,357,grams,True
+8e32a394-3d59-45fa-b850-1a59d6bc8740,GePcJizGnj1qJOb9xy0f,Coriander Leaves,276,tsp,True
+cda806b9-3353-4614-afc1-4646c3bef1a8,HABfQ3LK5WR3RugO1dfj,Ginger,327,tsp,False
+39def7d4-8369-4880-8d4a-b9c55a0818e5,HABfQ3LK5WR3RugO1dfj,Salt,40,ml,False
+b7f2e140-5113-4ef1-9398-5eb7187373f4,HABfQ3LK5WR3RugO1dfj,Tomato,171,tbsp,False
+c4c860b2-27f0-4dab-88a9-97d9afebc512,HABfQ3LK5WR3RugO1dfj,Garam Masala,399,ml,True
+eaab88a1-337b-4c01-b678-600a0f82e81f,HABfQ3LK5WR3RugO1dfj,Eggs,39,pieces,True
+60e6f256-3cb9-4537-95b4-c6464a9b8a2f,HABfQ3LK5WR3RugO1dfj,Eggs,182,grams,False
+905c9452-99eb-49c5-bdc8-052b0ffe0365,HABfQ3LK5WR3RugO1dfj,Paneer,81,tbsp,False
+f1b28cd3-5a14-4c4e-b250-9c41bb46b6de,IiiIkbbKLrMILKunMYHR,Garam Masala,264,tbsp,True
+045f82a2-4075-41cb-9d29-a0f3e0458bf9,IiiIkbbKLrMILKunMYHR,Tomato,326,tbsp,False
+c33e1a74-85e0-43ce-bbe0-e308ed3acc94,IiiIkbbKLrMILKunMYHR,Oil,16,pieces,False
+4cf8f4e8-063e-4874-8c77-5f2ec330bda2,IiiIkbbKLrMILKunMYHR,Eggs,212,grams,False
+05a12e4a-4517-4e9c-ad27-3dc607d2007f,IiiIkbbKLrMILKunMYHR,Water,242,tbsp,False
+f1129e94-1273-4a83-8711-8534a42fceab,IiiIkbbKLrMILKunMYHR,Curd,229,grams,False
+b00d1f97-536d-4a44-a7d7-cb9ac99f6046,IiiIkbbKLrMILKunMYHR,Cumin Seeds,64,tsp,True
+824124dc-dc61-41c6-a830-49f0ae895bc5,IiiIkbbKLrMILKunMYHR,Curd,418,pieces,False
+82e3a457-36b7-4176-a72a-857c4832a1bf,IiiIkbbKLrMILKunMYHR,Rice,210,ml,False
+1c620eab-5ff5-4109-8d2c-1a8b48037cd5,MptdCiisxT5vtXnjirhr,Salt,368,grams,False
+7da47920-18cb-480f-8731-cd41d5097c51,MptdCiisxT5vtXnjirhr,Chicken,393,grams,True
+8402940f-2185-47e4-a760-feb52129c7bb,MptdCiisxT5vtXnjirhr,Onion,219,cups,True
+66586efa-bade-4951-b8b5-55abf0d33dcd,MptdCiisxT5vtXnjirhr,Rice,339,ml,False
+9ee9b87c-d34c-4a2f-bcf7-5d40d2c8b80e,MptdCiisxT5vtXnjirhr,Oil,116,cups,False
+bc6af316-7c10-4f90-8c2f-a76bf05c9127,MptdCiisxT5vtXnjirhr,Tomato,271,grams,True
+b77f07ab-4a21-4ae0-85ae-dbdee5c5e917,MptdCiisxT5vtXnjirhr,Cumin Seeds,283,pieces,True
+374eda87-7bf0-4bdc-b2c5-ba6dd9d24a7e,MptdCiisxT5vtXnjirhr,Water,44,pieces,True
+46bdebc9-4bab-4309-8445-5aab4f16881c,MptdCiisxT5vtXnjirhr,Ginger,273,tbsp,False
+f23db846-1859-41a7-b67d-ba5ca4a3c3a6,P3RaESdaMYlTisxhy1pF,Red Chili Powder,164,grams,False
+541f106b-1fa6-4b39-a3cd-ba6914e1a42d,P3RaESdaMYlTisxhy1pF,Tomato,330,tsp,True
+16db077b-c5d1-4d1f-8e6e-2cd673bb09e3,P3RaESdaMYlTisxhy1pF,Garlic,272,grams,True
+ca0b0686-f4b9-4715-b25c-c14e3ea3de0f,P3RaESdaMYlTisxhy1pF,Butter,47,ml,True
+c84f0863-7854-4cae-8cd6-c22eb866d6b9,P3RaESdaMYlTisxhy1pF,Chicken,170,tbsp,False
+589f44c3-0751-4e47-9474-788ec841a802,UqWoRPSQVoKOc8P5Y2RV,Turmeric,429,tsp,True
+dff890dc-683b-499f-a461-06def7ff0088,UqWoRPSQVoKOc8P5Y2RV,Cumin Seeds,299,tsp,True
+2457f216-f441-4f2f-8b65-632b5b3a4858,UqWoRPSQVoKOc8P5Y2RV,Oil,427,pieces,False
+c452dde8-6fae-4d48-8b56-532a9b377791,UqWoRPSQVoKOc8P5Y2RV,Butter,208,pieces,False
+e8986b78-9604-48a5-a0c6-21a49e932c5a,UqWoRPSQVoKOc8P5Y2RV,Onion,486,tbsp,True
+31e2c21a-e786-477e-b61a-d18e956c1dd2,UqWoRPSQVoKOc8P5Y2RV,Ginger,383,pieces,True
+10d51176-77e0-4b2b-b697-d516a278f38f,UqWoRPSQVoKOc8P5Y2RV,Curd,419,tbsp,True
+f6828cbd-5943-42d5-b08c-2ba63b17b7be,UqWoRPSQVoKOc8P5Y2RV,Turmeric,7,cups,False
+5f36d955-d816-42a8-a2aa-7dd983a202a0,V5Wu86B1goNhoZpF6Tag,Tomato,85,ml,False
+f8118ba6-6d4c-4df7-8a0a-6b08c316b25d,V5Wu86B1goNhoZpF6Tag,Coriander Leaves,483,grams,True
+f988678e-3dce-4d22-aa8c-3abf4422bc31,V5Wu86B1goNhoZpF6Tag,Garlic,427,tsp,False
+39757f01-183a-47c4-a486-717e1d41fdaa,V5Wu86B1goNhoZpF6Tag,Ginger,199,cups,True
+da02f386-4ac4-4860-b8a8-f8aa009075c8,V5Wu86B1goNhoZpF6Tag,Coriander Leaves,230,pieces,False
+4f6898f6-86ef-4d49-874e-4444a8fb348a,V5Wu86B1goNhoZpF6Tag,Salt,142,cups,False
+08138a86-c758-4a2e-86ec-b3a4d80318a8,V5Wu86B1goNhoZpF6Tag,Water,1,cups,False
+368c9154-4ba6-418e-99d8-4f92851dbb5d,V5Wu86B1goNhoZpF6Tag,Turmeric,383,pieces,False
+87ae4362-c52f-4508-a155-c87ef53ad636,V5Wu86B1goNhoZpF6Tag,Coriander Leaves,349,ml,True
+920fc818-1ca2-457b-a237-bfcea9cb45bd,axJieIpmJDF7LS6I9wSN,Red Chili Powder,242,ml,False
+9719d099-1e36-490b-9e40-7df392e29e62,axJieIpmJDF7LS6I9wSN,Coriander Leaves,114,grams,False
+1c01ef7d-05d0-46ba-b272-0452b2dd5ee1,axJieIpmJDF7LS6I9wSN,Turmeric,392,pieces,True
+9a2ee9ec-d669-42c9-957c-8f65d6b5cb16,axJieIpmJDF7LS6I9wSN,Ginger,122,ml,False
+6642be65-20c1-44dc-934b-477f7c3b3059,axJieIpmJDF7LS6I9wSN,Red Chili Powder,493,grams,True
+84e1ea7b-a47a-40e0-8c3d-fa85f42931f0,axJieIpmJDF7LS6I9wSN,Mutton,246,tbsp,True
+39832bc4-8731-4268-b16f-1e4a10a86cef,bPMoOifAwNeTqMzfdyc7,Salt,50,grams,False
+b7e3b920-aeb6-4a62-b508-ae922eaca911,bPMoOifAwNeTqMzfdyc7,Chicken,140,tsp,True
+329d6fed-e006-4949-be07-9412a900a4ce,bPMoOifAwNeTqMzfdyc7,Tomato,498,grams,True
+1b802aaa-ca63-4093-bbf1-968e22952ea5,bPMoOifAwNeTqMzfdyc7,Coriander Leaves,186,tbsp,True
+acf66bd1-3509-4b80-a796-eac1a5891606,bPMoOifAwNeTqMzfdyc7,Ginger,365,tbsp,True
+88c6e23a-84f5-488b-9bd8-30374166a846,ccmK2alRQMhmkWQbazI5,Oil,397,tbsp,False
+445863fd-c957-4ad2-809d-17d53a8f91fd,ccmK2alRQMhmkWQbazI5,Oil,177,grams,True
+661615af-0f58-4b2c-98e1-88122e064d65,ccmK2alRQMhmkWQbazI5,Water,50,grams,False
+9b556468-b215-4cc1-b598-de7a9dbebec8,ccmK2alRQMhmkWQbazI5,Tomato,59,grams,True
+de2a1b1d-e068-4608-b748-d1f3d31d8676,ccmK2alRQMhmkWQbazI5,Garlic,352,cups,False
+54badf5d-82bd-4e94-8852-80d88c508b6f,ccmK2alRQMhmkWQbazI5,Cumin Seeds,160,pieces,True
+7b89a02b-e566-4879-868d-611b6a863883,ccmK2alRQMhmkWQbazI5,Butter,69,pieces,False
+2a8c2d27-213d-4638-aef5-d27e065471e9,ccmK2alRQMhmkWQbazI5,Onion,184,cups,False
+2ff6b106-ecac-484b-89d9-4d49756923eb,ccmK2alRQMhmkWQbazI5,Cumin Seeds,417,pieces,True
+8bc67a42-845b-43d4-a2d7-cd92202d4f4d,ccmK2alRQMhmkWQbazI5,Water,187,tsp,True
+230caaf8-d9b1-4196-abae-d14dd6925f9d,es2cAjXAobvyWdLb8uDg,Coriander Powder,141,cups,False
+da32899e-35c0-4b05-8987-3c21a5329b3e,es2cAjXAobvyWdLb8uDg,Mutton,491,cups,False
+51efff43-bdb0-4cab-9ed0-a5752733efdb,es2cAjXAobvyWdLb8uDg,Coriander Leaves,236,grams,True
+d12f48cb-f830-42d7-8f14-498b95d5bd02,es2cAjXAobvyWdLb8uDg,Paneer,324,tbsp,True
+14aae4cb-bf25-4c3e-aead-33f1325cd19c,es2cAjXAobvyWdLb8uDg,Coriander Powder,211,grams,False
+af46bf73-5f2a-497a-8b49-c81f76f2d32d,es2cAjXAobvyWdLb8uDg,Coriander Powder,372,pieces,True
+c5f18217-7da7-4fa6-b2ea-2ebe97833fd8,es2cAjXAobvyWdLb8uDg,Green Chili,443,cups,True
+f51f3ad4-39ef-4853-b345-55ce170b83e6,es2cAjXAobvyWdLb8uDg,Butter,478,ml,False
+c14b293f-8252-4938-b778-dc91040e8f48,grHTuHOxHjO3hY9Y4zZn,Mutton,351,cups,False
+b7861c3f-d979-4db2-a255-aa65e2beb35d,grHTuHOxHjO3hY9Y4zZn,Ginger,41,ml,False
+2368bf36-8401-4825-901f-70b91c5299f5,grHTuHOxHjO3hY9Y4zZn,Turmeric,413,grams,True
+b55aa191-cd6b-4499-9873-da1fc6f8f9dc,grHTuHOxHjO3hY9Y4zZn,Chicken,305,ml,False
+61c22800-b51f-4d92-a70b-5454ac38785c,grHTuHOxHjO3hY9Y4zZn,Chicken,93,grams,False
+4f149514-bd09-44df-bf50-1e8ba74efca6,grHTuHOxHjO3hY9Y4zZn,Butter,281,tsp,True
+5e1934ea-0332-4e2a-af4b-2b46d3a21e1c,ivjyKsILOvEyUqqcprTv,Turmeric,126,cups,True
+377fefee-a7cc-4c4f-864d-e25497402cb3,ivjyKsILOvEyUqqcprTv,Turmeric,50,ml,False
+4c646928-b6a4-48a2-a3eb-c3fa19bfd812,ivjyKsILOvEyUqqcprTv,Ginger,416,tsp,True
+465244f2-25a2-4303-a6bd-cb9b739a864a,ivjyKsILOvEyUqqcprTv,Coriander Leaves,421,cups,False
+6365b68a-e2fd-4153-8106-de0ba6782592,ivjyKsILOvEyUqqcprTv,Garam Masala,344,ml,True
+ac64433b-f26a-4669-a3d6-2b875de9a507,ivjyKsILOvEyUqqcprTv,Paneer,295,grams,True
+e33155d0-81a7-4319-be9c-b94b5833c64f,kQCF1FDd6FhOFRgGCt5n,Green Chili,355,grams,False
+320d7202-15fc-462b-8a69-754781a44d4c,kQCF1FDd6FhOFRgGCt5n,Paneer,77,tbsp,False
+4d1de0cc-e500-44dd-a1ac-976469778cbc,kQCF1FDd6FhOFRgGCt5n,Ginger,359,pieces,True
+e06be2c9-c3ba-4e48-af63-be74f8e17c52,kQCF1FDd6FhOFRgGCt5n,Turmeric,222,pieces,True
+d01a4b6e-333c-46ff-9528-2e26f8a183c0,kQCF1FDd6FhOFRgGCt5n,Tomato,170,ml,True
+fcd1c3d8-be97-4c19-b4f3-108720b67521,kQCF1FDd6FhOFRgGCt5n,Mutton,90,grams,True
+791a011d-b758-44e4-bef3-77f6269464ad,kQCF1FDd6FhOFRgGCt5n,Paneer,310,grams,False
+73bd8598-2e74-458c-9d69-3f71b4deedd3,lZQ5vz0gWXqTTBglSMYW,Garam Masala,269,tsp,True
+54a66448-b24f-4e10-9c28-0d6dbd749921,lZQ5vz0gWXqTTBglSMYW,Turmeric,444,cups,True
+022b8a7e-07cf-4ab6-90be-b58b5dd8f750,lZQ5vz0gWXqTTBglSMYW,Butter,153,ml,True
+1f589040-7727-401b-ad16-3a3f2346b33a,lZQ5vz0gWXqTTBglSMYW,Salt,489,grams,False
+2adb4353-c091-42c4-84e2-34325937a774,lZQ5vz0gWXqTTBglSMYW,Mutton,468,grams,False
+8385f264-660e-4e97-aad2-8f08de9d42cf,lZQ5vz0gWXqTTBglSMYW,Ginger,490,tsp,False
+17ca2793-c9b7-49a9-b577-12605c6b5f5b,lZQ5vz0gWXqTTBglSMYW,Garam Masala,291,tbsp,False
+f8f733de-5fa5-4520-b704-02900dfb889c,lZQ5vz0gWXqTTBglSMYW,Oil,35,pieces,True
+f1e074ed-34d4-4491-a165-49380f1f7e83,q7tRKrF8cbiuUzbgRime,Chicken,500,grams,False
+723bd37d-280c-4ac5-9240-869892a9a3a3,q7tRKrF8cbiuUzbgRime,Turmeric Powder,1,tsp,False
+f72b90bc-9958-4d6d-90c4-de23e378609c,q7tRKrF8cbiuUzbgRime,Chicken Masala,1,tbsp,False
+6a3f11cb-b9a3-4e28-9742-f653375ac458,q7tRKrF8cbiuUzbgRime,Ginger-Garlic Paste,2,tsp,False
+3062c107-1889-4f6a-9f21-6c41ff1047c0,q7tRKrF8cbiuUzbgRime,Garam Masala,1,tsp,False
+5bf14032-b631-4d4e-901c-b5197ac9fa53,q7tRKrF8cbiuUzbgRime,Jeera,2,tsp,False
+90833425-9c7d-4f4d-b788-f1bc6e85180d,q7tRKrF8cbiuUzbgRime,Oil,2,tbsp,False
+ed315e43-5ac8-407d-8986-bb0cb86e44b0,q7tRKrF8cbiuUzbgRime,Salt,2,tsp,False
+8945592b-69c3-434c-8299-69c690e377a2,q7tRKrF8cbiuUzbgRime,Water,500,ml,False
+8e1325ca-5a35-4248-8ac8-c4263f60561a,q7tRKrF8cbiuUzbgRime,Coriander Leaves,1,small handful,True
+5f7e72c1-cb2b-4c0d-897d-16d9708146c0,ztDF1BzIylk9Q86dkett,Onion,321,grams,False
+9d2ba9dc-f510-4a5f-b3a3-d61e84fd0842,ztDF1BzIylk9Q86dkett,Curd,142,cups,False
+2161b353-e4a9-4750-a445-ded62cf5cf63,ztDF1BzIylk9Q86dkett,Garam Masala,292,ml,True
+063ca4a9-fd75-4e1b-b251-73979153e70b,ztDF1BzIylk9Q86dkett,Eggs,438,ml,True
+c66111de-d094-43a3-ada0-91f05eeb288e,ztDF1BzIylk9Q86dkett,Tomato,263,tbsp,True
+eeb9ba1b-4b88-471e-8779-3d0a7ba84aa7,ztDF1BzIylk9Q86dkett,Chicken,209,ml,False
+5e09c70b-6b75-411d-9219-427dd157da46,ztDF1BzIylk9Q86dkett,Cumin Seeds,301,ml,False
+f9b2f90b-5a3e-45fd-af9a-b36b225a9092,ztDF1BzIylk9Q86dkett,Coriander Powder,118,grams,False
