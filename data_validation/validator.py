@@ -9,7 +9,6 @@ def is_positive_number(v):
     except:
         return False
 
-
 def validate_recipes(
     csv_path="data_transform/recipe.csv",
     ingredients_path="data_transform/ingredients.csv",

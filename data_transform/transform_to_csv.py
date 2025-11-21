@@ -6,9 +6,6 @@ import os
 from datetime import datetime
 
 
-# ------------------------------------
-# Convert duration text → seconds
-# ------------------------------------
 def parse_duration_to_seconds(d):
     if not d:
         return None
@@ -17,7 +14,7 @@ def parse_duration_to_seconds(d):
     if d.isdigit():
         return int(d)
 
-    m = re.match(r'(?P<num>\d+)\s*(?P<unit>hr|hrs|hour|hours|min|minutes|sec|second|seconds)?', d)
+    m = re.match(r'(?P<num>\d+)\s*(?P<unit>hr|hrs|hour|hours|min|minutes|sec|second|seconds)?', d)  # regex expression for duration
     if not m:
         return None
 
@@ -33,9 +30,8 @@ def parse_duration_to_seconds(d):
     return None
 
 
-# ------------------------------------
-# Main transform function
-# ------------------------------------
+
+# transform the recipe, interaction json file
 def transform(
     recipes_json="data_extract/recipes.json",
     interactions_json="data_extract/interactions.json"
@@ -85,9 +81,7 @@ def transform(
         "recipe_title", "created_at"
     ])
 
-    # -----------------------------------------------------------
-    # PROCESS RECIPES
-    # -----------------------------------------------------------
+    # process the recipe json
     for r in recipes:
         rid = r.get("id") or str(uuid.uuid4())
 
@@ -110,16 +104,14 @@ def transform(
 
         created_at = r.get("CreatedAt")
 
-        # Write recipe.csv
+        # write data into recipe csv
         r_writer.writerow([
             rid, title, desc, prep, cook, total, difficulty,
             author_id, author_name, view_count, like_count,
             rating_count, created_at
         ])
 
-        # ----------------------------------------------
-        # INGREDIENTS
-        # ----------------------------------------------
+        # process the ingredient json
         for ing in r.get("Ingredients", []):
             iid = str(uuid.uuid4())
             i_writer.writerow([
@@ -130,9 +122,8 @@ def transform(
                 ing.get("Optional", False)
             ])
 
-        # ----------------------------------------------
-        # STEPS
-        # ----------------------------------------------
+        
+        # process steps json
         for st in r.get("Steps", []):
             sid = str(uuid.uuid4())
             step_no = st.get("StepNumber")
@@ -144,9 +135,7 @@ def transform(
                 sid, rid, step_no, instr, dur_sec, dur_raw
             ])
 
-    # -----------------------------------------------------------
-    # PROCESS INTERACTIONS (root collection)
-    # -----------------------------------------------------------
+    # process interaction json
     for inter in interactions:
         inter_writer.writerow([
             inter.get("id") or str(uuid.uuid4()),
@@ -160,7 +149,6 @@ def transform(
             inter.get("CreatedAt")
         ])
 
-    # Close files
     r_fp.close()
     i_fp.close()
     s_fp.close()
