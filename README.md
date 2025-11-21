@@ -11,32 +11,47 @@ The pipeline does:
 # **Data Model -**
 
 <img width="6096" height="2117" alt="ERD_Diagram" src="https://github.com/user-attachments/assets/2050160c-5930-49b8-9e00-cce3d8a6197f" />
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a1336041-4256-4694-b42a-f31462425b1a" />
-<img width="500" height="3000" alt="Simple ETL Pipeline Structure" src="https://github.com/user-attachments/assets/a923787a-03e3-4166-94f3-c1cc1088e901" />
+
+## Core Architecture Highlights
+- **Ingredients and Steps stored as Array of Maps (NOT Subcollections)**\
+      &ensp;1. Whole data loads in one single read with the recipe document.\
+      &ensp;2. No need for multiple reads like subcollections would require.\
+      &ensp;3. Avoids many small documents and reduces read cost.
+- **Interaction stored as a Separate Root Collection**\
+      &ensp;1. Contains recipeId and userId for fast lookup and filtering.\
+      &ensp;2. Tracks views, likes, and cook notes cleanly.\
+      &ensp;3. Works without joining multiple collections.
+- **Denormalized Fields (username, recipeTitle) inside Interaction**\
+      &ensp;1. Makes UI loading and analytics much faster
+- **Auto-ID for Recipe, User, and Interaction Documents**\
+      &ensp;1. Prevents write hotspotting.
+- **Activities Subcollection Inside Each User**\
+      &ensp;1. Enables per-user queries without scanning large collections
+- **TimeRequired Stored as a Map**\
+      &ensp;1. Prep, Cook, and Total time grouped together\
+      &ensp;2. Cleaner structure and easier querying
 
 ### 1. Recipe (Root Collection)
-  This is the main collection where all recipes are stored.\
-  Each recipe document contains basic recipe information such as the title, description, ingredients, steps, time required, difficulty, etc.
+  &ensp;Stores all recipes.\
+  &ensp;Each recipe keeps title, description, ingredients, steps, time, difficulty, and statistics.\
+  &ensp;**Why this design?**\
+  &ensp;Ingredients and steps use array of maps, so the whole recipe loads in one read.\
+  &ensp;No need for subcollections or multiple reads.
 
-### 2. Interaction (Subcollection inside each Recipe)
-  Inside each recipe, there is an Interaction subcollection.\
-  This subcollection stores actions performed by users on that specific recipe, such as:\
-  views,likes,ratings,comments (cook notes)
-
--------- Why is it a subcollection? -------------\
-  Because each recipe can have many interactions, and storing them under the recipe:\
-  keeps recipe-related activity grouped together\
-  makes queries like “get interactions for one recipe” very fast\
-  avoids scanning thousands of interactions across all recipes
+### 2. Interaction (Root Collection)
+   &ensp;Stores every user action on any recipe.\
+   &ensp;Each document has recipeId, userId, type, rating, cooknote, username, recipeTitle, and createdAt.\
+   &ensp;**Why this design?**\
+   &ensp;Keeping interactions in a root collection handles large growth easily.\
+   &ensp;recipeId + userId makes filtering fast, and denormalized fields avoid extra reads.
 
 ### 3. Users (Root Collection)
-  This collection stores information about all users.\
-  Each user is a document containing basic profile details.
+   &ensp;Stores all user profiles like username, email, joinedAt, and skill level.
 
-### 4. Activities (Subcollection inside each User)
-  Each user has an Activities subcollection.\
-  This stores actions that the user performs across any recipe, such as:\
-  viewed a recipe,liked a recipe,added a note,rated a recipe
+### 4. Activities (Subcollection under each User)
+   &ensp;Stores actions done by that user across recipes.\
+   &ensp;**Why this design?**\
+   &ensp;Gives quick access to the user’s personal history without scanning all interactions.
 
 # **How to Run the Pipeline -**
 ### Step 1 - Install Dependencies
@@ -44,7 +59,7 @@ The pipeline does:
 
 ### Step 2 — Export Firestore Data
 > python firestore_export.py\
-> Output → data_export/recipes.json & users.json
+> Output → data_extract/recipes.json & users.json
 
 ### Step 3 — Transform JSON → CSV
 > python transform_to_csv.py\
@@ -123,7 +138,6 @@ The pipeline does:
 # **Known Constraints / Limitations**
 
 ### Firestore limitations
-  Firestore does not support joins → therefore, interactions are grouped under recipes.\
-  Querying huge subcollections may cost more reads.
+  Firestore does not support joins, so some fields are denormalized (username, recipeTitle) inside the Interaction collection.
 ### Local CSV files must exist
   If export step fails, analytics won’t run.
