@@ -2,23 +2,22 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 from datetime import datetime
 
-
-cred = credentials.Certificate('config\ProjectKey.json')
+cred = credentials.Certificate('config\projectKey.json')
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
 ingredients = [
-    {"name": "Chicken", "Quantity": 500, "Unit": "grams", "Optional": False},
-    {"name": "Turmeric Powder", "Quantity": 1, "Unit": "tsp", "Optional": False},
-    {"name": "Chicken Masala", "Quantity": 1, "Unit": "tbsp", "Optional": False},
-    {"name": "Ginger-Garlic Paste", "Quantity": 2, "Unit": "tsp", "Optional": False},
-    {"name": "Garam Masala", "Quantity": 1, "Unit": "tsp", "Optional": False},
-    {"name": "Jeera", "Quantity": 2, "Unit": "tsp", "Optional": False},
-    {"name": "Oil", "Quantity": 2, "Unit": "tbsp", "Optional": False},
-    {"name": "Salt", "Quantity": 2, "Unit": "tsp", "Optional": False},
-    {"name": "Water", "Quantity": 500, "Unit": "ml", "Optional": False},
-    {"name": "Coriander Leaves", "Quantity": 1, "Unit": "small handful", "Optional": True},
+    {"Name": "Chicken", "Quantity": 500, "Unit": "grams", "Optional": False},
+    {"Name": "Turmeric Powder", "Quantity": 1, "Unit": "tsp", "Optional": False},
+    {"Name": "Chicken Masala", "Quantity": 1, "Unit": "tbsp", "Optional": False},
+    {"Name": "Ginger-Garlic Paste", "Quantity": 2, "Unit": "tsp", "Optional": False},
+    {"Name": "Garam Masala", "Quantity": 1, "Unit": "tsp", "Optional": False},
+    {"Name": "Jeera", "Quantity": 2, "Unit": "tsp", "Optional": False},
+    {"Name": "Oil", "Quantity": 2, "Unit": "tbsp", "Optional": False},
+    {"Name": "Salt", "Quantity": 2, "Unit": "tsp", "Optional": False},
+    {"Name": "Water", "Quantity": 500, "Unit": "ml", "Optional": False},
+    {"Name": "Coriander Leaves", "Quantity": 1, "Unit": "small handful", "Optional": True},
 ]
 
 steps = [
@@ -40,11 +39,14 @@ steps = [
     {"StepNumber": 16, "Instruction": "Turn off gas. Chicken curry is ready", "Duration": "1 min"},
 ]
 
-recipe_ref = db.collection("Recipe").document() 
+
+recipe_ref = db.collection("Recipe").document()
 
 recipe_ref.set({
     "Title": "Chicken Curry",
     "Description": "Traditional homemade Indian chicken curry.",
+    "AuthorID": "user_12345",
+    "AuthorName": "yashaher",
     "Ingredients": ingredients,
     "Steps": steps,
     "TimeRequired": {
@@ -53,54 +55,52 @@ recipe_ref.set({
         "TotalTime": 60
     },
     "Difficulty": "Medium",
-    "CreatedAt": datetime.now(),
-    "AuthorID":"user_12345",
-    "AuthorName":"yashaher"
+    "Statistics": {
+        "ViewCount": 0,
+        "LikeCount": 0,
+        "RatingCount": 0
+    },
+    "CreatedAt": datetime.now()
 })
 
 print("Chicken Curry Recipe Added. ID:", recipe_ref.id)
-interaction_ref = recipe_ref.collection("Interaction").document() 
+
+interaction_ref = db.collection("Interaction").document()
 
 interaction_ref.set({
-    "username": "yashaher",
-    "userID": "user_12345",
-    "type": "rating",
-    "rating": "5",
-    "cooknote": "This recipe turned out amazing!",
-    "recipename": "Chicken Curry",
-    "createdAt": datetime.now()
-})  
+    "RecipeId": recipe_ref.id,
+    "UserId": "user_12345",
+    "Type": "rating",
+    "Rating": "5",
+    "Cooknote": "This recipe turned out amazing!",
+    "Username": "yashaher",
+    "RecipeTitle": "Chicken Curry",
+    "CreatedAt": datetime.now()
+})
 
-print("Interaction added for:", recipe_ref.id)
+print("Interaction added. Interaction ID:", interaction_ref.id)
 
-
-
-
-
-user_ref = db.collection("Users").document() 
+user_ref = db.collection("Users").document()
 
 user_data = {
-    "UserID": user_ref.id,           
+    "UserID": user_ref.id,
     "UserName": "Sample User",
     "Email": "sampleUser@gmail.com",
-    "Mobile Number": "1234567890",
-    "Joined At": datetime.now(),     
-    "Skill Level": "Expert"
+    "MobileNumber": "1234567890",
+    "JoinedAt": datetime.now(),
+    "SkillLevel": "Expert"
 }
 
 user_ref.set(user_data)
 print("User created with ID:", user_ref.id)
 
-activity_ref = user_ref.collection("Activities").document() 
+activity_ref = user_ref.collection("Activities").document()
 
-activity_data = {
-    "Activity ID": activity_ref.id,
-    "Recipe Name": "Chicken Curry",
-    "Type": "Like",
-    "rating": "0",
-    "cooknote": "This recipe turned out amazing!",   
+activity_ref.set({
+    "InteractionID": interaction_ref.id, 
+    "RecipeName": "Chicken Curry",
+    "Type": "rating",
     "CreatedAt": datetime.now()
-}
+})
 
-activity_ref.set(activity_data)
 print("Activity added for user:", user_ref.id)
