@@ -11,6 +11,8 @@ The pipeline does:
 # **Data Model -**
 
 <img width="6096" height="2117" alt="ERD_Diagram" src="https://github.com/user-attachments/assets/2050160c-5930-49b8-9e00-cce3d8a6197f" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a1336041-4256-4694-b42a-f31462425b1a" />
+<img width="500" height="3000" alt="Simple ETL Pipeline Structure" src="https://github.com/user-attachments/assets/a923787a-03e3-4166-94f3-c1cc1088e901" />
 
 ### 1. Recipe (Root Collection)
   This is the main collection where all recipes are stored.\
