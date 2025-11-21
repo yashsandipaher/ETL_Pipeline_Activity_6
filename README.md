@@ -32,10 +32,12 @@ The pipeline does:
 
 # **Data Model -**
 
-<img width="6096" height="2117" alt="ERD_Diagram" src="https://github.com/user-attachments/assets/2050160c-5930-49b8-9e00-cce3d8a6197f" />
+<!-- <img width="6096" height="2117" alt="ERD_Diagram" src="https://github.com/user-attachments/assets/2050160c-5930-49b8-9e00-cce3d8a6197f" />
 <img width="2474" height="1100" alt="image" src="https://github.com/user-attachments/assets/e66c5028-d7d1-41d2-8f9a-fd68cc5297bb" />
-<img width="2880" height="1361" alt="file_execution_structure" src="https://github.com/user-attachments/assets/933bc1d7-317b-498b-9086-65748e69ff8e" />
-
+<img width="2880" height="1361" alt="file_execution_structure" src="https://github.com/user-attachments/assets/933bc1d7-317b-498b-9086-65748e69ff8e" /> -->
+![diagram](documentation/ERD_Diagram.png)
+![diagram](documentation/firestore_schema.png)
+![diagram](documentation/file_execution_structure.png)
 
 ## Core Architecture Highlights
 - **Ingredients and Steps stored as Array of Maps (NOT Subcollections)**\
@@ -110,7 +112,7 @@ The pipeline does:
 > Raw JSON extracts → data_extract/ \
 > Validation report → data_validation/validation_report.json
 
-<img width="200" height="200" alt="difficulty_distribution" src="https://github.com/user-attachments/assets/310bc248-858d-4936-bac5-2a56015c04a1" /> <img width="200" height="200" alt="prep_vs_rating" src="https://github.com/user-attachments/assets/92cde96d-e47e-491d-9026-60c1ca729931" /> <img width="200" height="200" alt="top_ingredients" src="https://github.com/user-attachments/assets/e70d5a86-1d5d-4aff-98ff-02e401b336bc" />
+<img width="200" height="200" alt="difficulty_distribution" src="analytics/charts/difficulty_distribution.png" /> <img width="200" height="200" alt="prep_vs_rating" src="analytics/charts/prep_vs_rating.png" /> <img width="200" height="200" alt="top_ingredients" src="analytics/charts/top_ingredients.png" />
 
 ## **ALTERNATIVE**
 ## Full Pipeline Runner (run_pipeline.py)
