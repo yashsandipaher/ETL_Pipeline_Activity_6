@@ -11,33 +11,24 @@ The pipeline does:
 ## 📑 Table of Contents
 
 1. [Project Overview](#etl_pipeline_activity_6)
-2. [Data Model](#data-model--)
-   - [Core Architecture Highlights](#core-architecture-highlights)
+2. [Core Architecture Highlights](#core-architecture-highlights)
+3. [Data Model](#data-model--)
    - [Recipe Collection](#1-recipe-root-collection)
    - [Interaction Collection](#2-interaction-root-collection)
    - [Users Collection](#3-users-root-collection)
    - [Activities Subcollection](#4-activities-subcollection-under-each-user)
-3. [How to Run the Pipeline](#how-to-run-the-pipeline--)
-4. [Pipeline Outputs](#outputs--)
-5. [Firestore Source Data Setup](#firestore-source-data-setup)
-6. [ETL Process](#etl-process)
+4. [How to Run the Pipeline](#how-to-run-the-pipeline--)
+5. [Pipeline Outputs](#outputs--)
+6. [Firestore Source Data Setup](#firestore-source-data-setup)
+7. [ETL Process](#etl-process)
    - [Extract](#e--extract)
    - [Transform](#t--transform)
    - [Load](#l--load)
    - [Validation](#validate)
    - [Analytics](#analyze)
-7. [Insights Summary](#insights-summary-example-output)
-8. [Known Constraints / Limitations](#known-constraints--limitations)
+8. [Insights Summary](#insights-summary-example-output)
+9. [Known Constraints / Limitations](#known-constraints--limitations)
 
-
-# **Data Model -**
-
-<!-- <img width="6096" height="2117" alt="ERD_Diagram" src="https://github.com/user-attachments/assets/2050160c-5930-49b8-9e00-cce3d8a6197f" />
-<img width="2474" height="1100" alt="image" src="https://github.com/user-attachments/assets/e66c5028-d7d1-41d2-8f9a-fd68cc5297bb" />
-<img width="2880" height="1361" alt="file_execution_structure" src="https://github.com/user-attachments/assets/933bc1d7-317b-498b-9086-65748e69ff8e" /> -->
-![diagram](documentation/ERD_Diagram.png)
-![diagram](documentation/firestore_schema.png)
-![diagram](documentation/file_execution_structure.png)
 
 ## Core Architecture Highlights
 - **Ingredients and Steps stored as Array of Maps (NOT Subcollections)**\
@@ -64,6 +55,15 @@ The pipeline does:
       &ensp;2. Cleaner structure and easier querying
 
 
+# **Data Model -**
+
+<!-- <img width="6096" height="2117" alt="ERD_Diagram" src="https://github.com/user-attachments/assets/2050160c-5930-49b8-9e00-cce3d8a6197f" />
+<img width="2474" height="1100" alt="image" src="https://github.com/user-attachments/assets/e66c5028-d7d1-41d2-8f9a-fd68cc5297bb" />
+<img width="2880" height="1361" alt="file_execution_structure" src="https://github.com/user-attachments/assets/933bc1d7-317b-498b-9086-65748e69ff8e" /> -->
+![diagram](documentation/ERD_Diagram.png)
+![diagram](documentation/firestore_schema.png)
+![diagram](documentation/file_execution_structure.png)
+
 The data model consists of three main Firestore root collections and one subcollection:
 ### 1. Recipe (Root Collection)
   &ensp;Stores all recipes.\
@@ -88,6 +88,14 @@ The data model consists of three main Firestore root collections and one subcoll
    &ensp;Gives quick access to the user’s personal history without scanning all interactions.
 
 # **How to Run the Pipeline -**
+
+### Prerequisites
+> Python 3.9+\
+> A service account with Firestore read access (JSON key) when exporting live Firestore data\
+> Local environment (or CI runner) with:\
+> pip installed\
+> Recommended packages in requirements.txt
+
 ### Step 1 - Install Dependencies
 > pip install firebase-admin pandas matplotlib numpy google-cloud-firestore
 
