@@ -63,6 +63,8 @@ The pipeline does:
       &ensp;1. Prep, Cook, and Total time grouped together\
       &ensp;2. Cleaner structure and easier querying
 
+
+The data model consists of three main Firestore root collections and one subcollection:
 ### 1. Recipe (Root Collection)
   &ensp;Stores all recipes.\
   &ensp;Each recipe keeps title, description, ingredients, steps, time, difficulty, and statistics.\
