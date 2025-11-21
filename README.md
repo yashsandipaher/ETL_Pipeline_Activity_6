@@ -10,8 +10,7 @@ The pipeline does:
 
 # **Data Model -**
 
-<img width="5804" height="2935" alt="ERD_Diagram" src="https://github.com/user-attachments/assets/265cebc8-f0fc-4c74-b0c9-d667923f6f71" />
-<img width="2471" height="1318" alt="image" src="https://github.com/user-attachments/assets/e268da52-197c-4fc1-9358-d180906a2a8b" />
+<img width="6096" height="2117" alt="ERD_Diagram" src="https://github.com/user-attachments/assets/2050160c-5930-49b8-9e00-cce3d8a6197f" />
 
 ### 1. Recipe (Root Collection)
   This is the main collection where all recipes are stored.\
