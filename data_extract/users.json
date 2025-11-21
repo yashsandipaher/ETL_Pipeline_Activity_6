@@ -1,0 +1,20 @@
+[
+  {
+    "UserID": "ccCizSDy7KajwWKJ5ZDx",
+    "Email": "sampleUser@gmail.com",
+    "MobileNumber": "1234567890",
+    "JoinedAt": "2025-11-21T10:34:40.115091+00:00",
+    "UserName": "Sample User",
+    "SkillLevel": "Expert",
+    "id": "ccCizSDy7KajwWKJ5ZDx",
+    "Activities": [
+      {
+        "CreatedAt": "2025-11-21T10:34:40.216214+00:00",
+        "Type": "rating",
+        "RecipeName": "Chicken Curry",
+        "InteractionID": "Z8Rqi0807YjF7ifnUiO7",
+        "id": "tryxVTeW7U2barGPh8Lr"
+      }
+    ]
+  }
+]

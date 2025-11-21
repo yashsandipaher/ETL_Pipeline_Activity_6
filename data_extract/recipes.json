@@ -1,0 +1,2340 @@
+[
+  {
+    "CreatedAt": "2025-11-21T10:39:18.392254+00:00",
+    "AuthorName": "foodlover",
+    "TimeRequired": {
+      "CookTime": 35,
+      "PrepTime": 17,
+      "TotalTime": 65
+    },
+    "Difficulty": "Medium",
+    "Description": "A delicious recipe for Egg Fried Rice.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "14 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "12 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "7 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 109,
+        "Name": "Tomato",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 439,
+        "Name": "Salt",
+        "Unit": "cups"
+      },
+      {
+        "Optional": true,
+        "Quantity": 18,
+        "Name": "Garam Masala",
+        "Unit": "ml"
+      },
+      {
+        "Optional": false,
+        "Quantity": 78,
+        "Name": "Water",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 138,
+        "Name": "Coriander Powder",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 74,
+        "Name": "Onion",
+        "Unit": "pieces"
+      }
+    ],
+    "Title": "Egg Fried Rice",
+    "Statistics": {
+      "LikeCount": 16,
+      "RatingCount": 23,
+      "ViewCount": 121
+    },
+    "AuthorID": "user_003",
+    "id": "39wvcQnBytFYF6YXbiIo"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:18.717012+00:00",
+    "AuthorName": "kitchenKing",
+    "TimeRequired": {
+      "CookTime": 23,
+      "PrepTime": 15,
+      "TotalTime": 50
+    },
+    "Difficulty": "Medium",
+    "Description": "A delicious recipe for Egg Fried Rice.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "12 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "1 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 250,
+        "Name": "Rice",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 294,
+        "Name": "Water",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 93,
+        "Name": "Chicken",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 356,
+        "Name": "Coriander Leaves",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 363,
+        "Name": "Coriander Leaves",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 268,
+        "Name": "Paneer",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 290,
+        "Name": "Coriander Powder",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 12,
+        "Name": "Coriander Leaves",
+        "Unit": "ml"
+      },
+      {
+        "Optional": false,
+        "Quantity": 477,
+        "Name": "Chicken",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 319,
+        "Name": "Garam Masala",
+        "Unit": "tbsp"
+      }
+    ],
+    "Title": "Egg Fried Rice",
+    "Statistics": {
+      "LikeCount": 63,
+      "RatingCount": 38,
+      "ViewCount": 101
+    },
+    "AuthorID": "user_004",
+    "id": "4zP7vn1OYed2YDOriICA"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:16.472209+00:00",
+    "AuthorName": "foodlover",
+    "TimeRequired": {
+      "CookTime": 46,
+      "PrepTime": 18,
+      "TotalTime": 55
+    },
+    "Difficulty": "Easy",
+    "Description": "A delicious recipe for Veg Pulao.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "5 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "10 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "12 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": true,
+        "Quantity": 61,
+        "Name": "Green Chili",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 259,
+        "Name": "Eggs",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 325,
+        "Name": "Onion",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 243,
+        "Name": "Curd",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 388,
+        "Name": "Curd",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 467,
+        "Name": "Oil",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 379,
+        "Name": "Ginger",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 295,
+        "Name": "Butter",
+        "Unit": "tsp"
+      }
+    ],
+    "Title": "Veg Pulao",
+    "Statistics": {
+      "LikeCount": 79,
+      "RatingCount": 18,
+      "ViewCount": 196
+    },
+    "AuthorID": "user_003",
+    "id": "905Q4qo6tlak8b8qrzpy"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:18.879709+00:00",
+    "AuthorName": "foodlover",
+    "TimeRequired": {
+      "CookTime": 29,
+      "PrepTime": 25,
+      "TotalTime": 80
+    },
+    "Difficulty": "Medium",
+    "Description": "A delicious recipe for Lemon Rice.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "5 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "5 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "8 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "13 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 315,
+        "Name": "Eggs",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 277,
+        "Name": "Garam Masala",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 170,
+        "Name": "Rice",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 289,
+        "Name": "Oil",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 234,
+        "Name": "Chicken",
+        "Unit": "pieces"
+      }
+    ],
+    "Title": "Lemon Rice",
+    "Statistics": {
+      "LikeCount": 67,
+      "RatingCount": 34,
+      "ViewCount": 86
+    },
+    "AuthorID": "user_003",
+    "id": "Dt3Jfws8NBhTVqeDIA3G"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:19.195888+00:00",
+    "AuthorName": "chefB",
+    "TimeRequired": {
+      "CookTime": 31,
+      "PrepTime": 14,
+      "TotalTime": 70
+    },
+    "Difficulty": "Hard",
+    "Description": "A delicious recipe for Bhindi Masala.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "1 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 179,
+        "Name": "Chicken",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 279,
+        "Name": "Green Chili",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 429,
+        "Name": "Turmeric",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 214,
+        "Name": "Turmeric",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 276,
+        "Name": "Coriander Powder",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 33,
+        "Name": "Rice",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 363,
+        "Name": "Garlic",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 120,
+        "Name": "Garlic",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 357,
+        "Name": "Garam Masala",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 276,
+        "Name": "Coriander Leaves",
+        "Unit": "tsp"
+      }
+    ],
+    "Title": "Bhindi Masala",
+    "Statistics": {
+      "LikeCount": 71,
+      "RatingCount": 48,
+      "ViewCount": 172
+    },
+    "AuthorID": "user_002",
+    "id": "GePcJizGnj1qJOb9xy0f"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:17.624598+00:00",
+    "AuthorName": "foodlover",
+    "TimeRequired": {
+      "CookTime": 21,
+      "PrepTime": 23,
+      "TotalTime": 55
+    },
+    "Difficulty": "Easy",
+    "Description": "A delicious recipe for Lemon Rice.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "3 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "3 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "3 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Follow step 8 carefully.",
+        "StepNumber": 8,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 9 carefully.",
+        "StepNumber": 9,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 10 carefully.",
+        "StepNumber": 10,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 11 carefully.",
+        "StepNumber": 11,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 12 carefully.",
+        "StepNumber": 12,
+        "Duration": "10 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 327,
+        "Name": "Ginger",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 40,
+        "Name": "Salt",
+        "Unit": "ml"
+      },
+      {
+        "Optional": false,
+        "Quantity": 171,
+        "Name": "Tomato",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 399,
+        "Name": "Garam Masala",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 39,
+        "Name": "Eggs",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 182,
+        "Name": "Eggs",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 81,
+        "Name": "Paneer",
+        "Unit": "tbsp"
+      }
+    ],
+    "Title": "Lemon Rice",
+    "Statistics": {
+      "LikeCount": 5,
+      "RatingCount": 10,
+      "ViewCount": 39
+    },
+    "AuthorID": "user_003",
+    "id": "HABfQ3LK5WR3RugO1dfj"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:19.144502+00:00",
+    "AuthorName": "chefA",
+    "TimeRequired": {
+      "CookTime": 38,
+      "PrepTime": 20,
+      "TotalTime": 46
+    },
+    "Difficulty": "Hard",
+    "Description": "A delicious recipe for Mutton Gravy.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "9 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "9 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "8 min"
+      },
+      {
+        "Instruction": "Follow step 8 carefully.",
+        "StepNumber": 8,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Follow step 9 carefully.",
+        "StepNumber": 9,
+        "Duration": "14 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": true,
+        "Quantity": 264,
+        "Name": "Garam Masala",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 326,
+        "Name": "Tomato",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 16,
+        "Name": "Oil",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 212,
+        "Name": "Eggs",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 242,
+        "Name": "Water",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 229,
+        "Name": "Curd",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 64,
+        "Name": "Cumin Seeds",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 418,
+        "Name": "Curd",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 210,
+        "Name": "Rice",
+        "Unit": "ml"
+      }
+    ],
+    "Title": "Mutton Gravy",
+    "Statistics": {
+      "LikeCount": 4,
+      "RatingCount": 44,
+      "ViewCount": 121
+    },
+    "AuthorID": "user_001",
+    "id": "IiiIkbbKLrMILKunMYHR"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:19.076846+00:00",
+    "AuthorName": "foodlover",
+    "TimeRequired": {
+      "CookTime": 32,
+      "PrepTime": 22,
+      "TotalTime": 54
+    },
+    "Difficulty": "Medium",
+    "Description": "A delicious recipe for Egg Fried Rice.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "12 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "11 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "7 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 368,
+        "Name": "Salt",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 393,
+        "Name": "Chicken",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 219,
+        "Name": "Onion",
+        "Unit": "cups"
+      },
+      {
+        "Optional": false,
+        "Quantity": 339,
+        "Name": "Rice",
+        "Unit": "ml"
+      },
+      {
+        "Optional": false,
+        "Quantity": 116,
+        "Name": "Oil",
+        "Unit": "cups"
+      },
+      {
+        "Optional": true,
+        "Quantity": 271,
+        "Name": "Tomato",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 283,
+        "Name": "Cumin Seeds",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 44,
+        "Name": "Water",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 273,
+        "Name": "Ginger",
+        "Unit": "tbsp"
+      }
+    ],
+    "Title": "Egg Fried Rice",
+    "Statistics": {
+      "LikeCount": 5,
+      "RatingCount": 4,
+      "ViewCount": 26
+    },
+    "AuthorID": "user_003",
+    "id": "MptdCiisxT5vtXnjirhr"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:16.730288+00:00",
+    "AuthorName": "kitchenKing",
+    "TimeRequired": {
+      "CookTime": 22,
+      "PrepTime": 16,
+      "TotalTime": 46
+    },
+    "Difficulty": "Hard",
+    "Description": "A delicious recipe for Vegetable Biryani.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "14 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "10 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "3 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "5 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 164,
+        "Name": "Red Chili Powder",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 330,
+        "Name": "Tomato",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 272,
+        "Name": "Garlic",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 47,
+        "Name": "Butter",
+        "Unit": "ml"
+      },
+      {
+        "Optional": false,
+        "Quantity": 170,
+        "Name": "Chicken",
+        "Unit": "tbsp"
+      }
+    ],
+    "Title": "Vegetable Biryani",
+    "Statistics": {
+      "LikeCount": 35,
+      "RatingCount": 20,
+      "ViewCount": 109
+    },
+    "AuthorID": "user_004",
+    "id": "P3RaESdaMYlTisxhy1pF"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:18.610503+00:00",
+    "AuthorName": "chefB",
+    "TimeRequired": {
+      "CookTime": 43,
+      "PrepTime": 20,
+      "TotalTime": 60
+    },
+    "Difficulty": "Hard",
+    "Description": "A delicious recipe for Chole Bhature.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "5 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "14 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 8 carefully.",
+        "StepNumber": 8,
+        "Duration": "5 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": true,
+        "Quantity": 429,
+        "Name": "Turmeric",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 299,
+        "Name": "Cumin Seeds",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 427,
+        "Name": "Oil",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 208,
+        "Name": "Butter",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 486,
+        "Name": "Onion",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 383,
+        "Name": "Ginger",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 419,
+        "Name": "Curd",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 7,
+        "Name": "Turmeric",
+        "Unit": "cups"
+      }
+    ],
+    "Title": "Chole Bhature",
+    "Statistics": {
+      "LikeCount": 52,
+      "RatingCount": 4,
+      "ViewCount": 172
+    },
+    "AuthorID": "user_002",
+    "id": "UqWoRPSQVoKOc8P5Y2RV"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:19.520749+00:00",
+    "AuthorName": "masterChef",
+    "TimeRequired": {
+      "CookTime": 20,
+      "PrepTime": 12,
+      "TotalTime": 55
+    },
+    "Difficulty": "Easy",
+    "Description": "A delicious recipe for Dal Tadka.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "9 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "8 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 8 carefully.",
+        "StepNumber": 8,
+        "Duration": "14 min"
+      },
+      {
+        "Instruction": "Follow step 9 carefully.",
+        "StepNumber": 9,
+        "Duration": "4 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 85,
+        "Name": "Tomato",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 483,
+        "Name": "Coriander Leaves",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 427,
+        "Name": "Garlic",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 199,
+        "Name": "Ginger",
+        "Unit": "cups"
+      },
+      {
+        "Optional": false,
+        "Quantity": 230,
+        "Name": "Coriander Leaves",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 142,
+        "Name": "Salt",
+        "Unit": "cups"
+      },
+      {
+        "Optional": false,
+        "Quantity": 1,
+        "Name": "Water",
+        "Unit": "cups"
+      },
+      {
+        "Optional": false,
+        "Quantity": 383,
+        "Name": "Turmeric",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 349,
+        "Name": "Coriander Leaves",
+        "Unit": "ml"
+      }
+    ],
+    "Title": "Dal Tadka",
+    "Statistics": {
+      "LikeCount": 33,
+      "RatingCount": 11,
+      "ViewCount": 59
+    },
+    "AuthorID": "user_005",
+    "id": "V5Wu86B1goNhoZpF6Tag"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:18.984473+00:00",
+    "AuthorName": "kitchenKing",
+    "TimeRequired": {
+      "CookTime": 24,
+      "PrepTime": 16,
+      "TotalTime": 40
+    },
+    "Difficulty": "Easy",
+    "Description": "A delicious recipe for Rajma Chawal.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "8 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "12 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 8 carefully.",
+        "StepNumber": 8,
+        "Duration": "9 min"
+      },
+      {
+        "Instruction": "Follow step 9 carefully.",
+        "StepNumber": 9,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 10 carefully.",
+        "StepNumber": 10,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 11 carefully.",
+        "StepNumber": 11,
+        "Duration": "9 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 242,
+        "Name": "Red Chili Powder",
+        "Unit": "ml"
+      },
+      {
+        "Optional": false,
+        "Quantity": 114,
+        "Name": "Coriander Leaves",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 392,
+        "Name": "Turmeric",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 122,
+        "Name": "Ginger",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 493,
+        "Name": "Red Chili Powder",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 246,
+        "Name": "Mutton",
+        "Unit": "tbsp"
+      }
+    ],
+    "Title": "Rajma Chawal",
+    "Statistics": {
+      "LikeCount": 35,
+      "RatingCount": 36,
+      "ViewCount": 149
+    },
+    "AuthorID": "user_004",
+    "id": "axJieIpmJDF7LS6I9wSN"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:15.845388+00:00",
+    "AuthorName": "chefB",
+    "TimeRequired": {
+      "CookTime": 30,
+      "PrepTime": 18,
+      "TotalTime": 65
+    },
+    "Difficulty": "Easy",
+    "Description": "A delicious recipe for Fish Fry.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "11 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "10 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "8 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "3 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "6 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 50,
+        "Name": "Salt",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 140,
+        "Name": "Chicken",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 498,
+        "Name": "Tomato",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 186,
+        "Name": "Coriander Leaves",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 365,
+        "Name": "Ginger",
+        "Unit": "tbsp"
+      }
+    ],
+    "Title": "Fish Fry",
+    "Statistics": {
+      "LikeCount": 12,
+      "RatingCount": 17,
+      "ViewCount": 20
+    },
+    "AuthorID": "user_002",
+    "id": "bPMoOifAwNeTqMzfdyc7"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:17.261858+00:00",
+    "AuthorName": "chefA",
+    "TimeRequired": {
+      "CookTime": 35,
+      "PrepTime": 21,
+      "TotalTime": 66
+    },
+    "Difficulty": "Medium",
+    "Description": "A delicious recipe for Mutton Gravy.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "12 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "3 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "15 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 397,
+        "Name": "Oil",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 177,
+        "Name": "Oil",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 50,
+        "Name": "Water",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 59,
+        "Name": "Tomato",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 352,
+        "Name": "Garlic",
+        "Unit": "cups"
+      },
+      {
+        "Optional": true,
+        "Quantity": 160,
+        "Name": "Cumin Seeds",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 69,
+        "Name": "Butter",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": false,
+        "Quantity": 184,
+        "Name": "Onion",
+        "Unit": "cups"
+      },
+      {
+        "Optional": true,
+        "Quantity": 417,
+        "Name": "Cumin Seeds",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 187,
+        "Name": "Water",
+        "Unit": "tsp"
+      }
+    ],
+    "Title": "Mutton Gravy",
+    "Statistics": {
+      "LikeCount": 19,
+      "RatingCount": 1,
+      "ViewCount": 51
+    },
+    "AuthorID": "user_001",
+    "id": "ccmK2alRQMhmkWQbazI5"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:17.426253+00:00",
+    "AuthorName": "masterChef",
+    "TimeRequired": {
+      "CookTime": 22,
+      "PrepTime": 20,
+      "TotalTime": 77
+    },
+    "Difficulty": "Easy",
+    "Description": "A delicious recipe for Sambar.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "9 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 141,
+        "Name": "Coriander Powder",
+        "Unit": "cups"
+      },
+      {
+        "Optional": false,
+        "Quantity": 491,
+        "Name": "Mutton",
+        "Unit": "cups"
+      },
+      {
+        "Optional": true,
+        "Quantity": 236,
+        "Name": "Coriander Leaves",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 324,
+        "Name": "Paneer",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 211,
+        "Name": "Coriander Powder",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 372,
+        "Name": "Coriander Powder",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 443,
+        "Name": "Green Chili",
+        "Unit": "cups"
+      },
+      {
+        "Optional": false,
+        "Quantity": 478,
+        "Name": "Butter",
+        "Unit": "ml"
+      }
+    ],
+    "Title": "Sambar",
+    "Statistics": {
+      "LikeCount": 30,
+      "RatingCount": 50,
+      "ViewCount": 36
+    },
+    "AuthorID": "user_005",
+    "id": "es2cAjXAobvyWdLb8uDg"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:17.984627+00:00",
+    "AuthorName": "masterChef",
+    "TimeRequired": {
+      "CookTime": 47,
+      "PrepTime": 20,
+      "TotalTime": 52
+    },
+    "Difficulty": "Hard",
+    "Description": "A delicious recipe for Egg Curry.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "11 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "9 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "11 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "8 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "4 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 351,
+        "Name": "Mutton",
+        "Unit": "cups"
+      },
+      {
+        "Optional": false,
+        "Quantity": 41,
+        "Name": "Ginger",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 413,
+        "Name": "Turmeric",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 305,
+        "Name": "Chicken",
+        "Unit": "ml"
+      },
+      {
+        "Optional": false,
+        "Quantity": 93,
+        "Name": "Chicken",
+        "Unit": "grams"
+      },
+      {
+        "Optional": true,
+        "Quantity": 281,
+        "Name": "Butter",
+        "Unit": "tsp"
+      }
+    ],
+    "Title": "Egg Curry",
+    "Statistics": {
+      "LikeCount": 17,
+      "RatingCount": 9,
+      "ViewCount": 124
+    },
+    "AuthorID": "user_005",
+    "id": "grHTuHOxHjO3hY9Y4zZn"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:16.588743+00:00",
+    "AuthorName": "kitchenKing",
+    "TimeRequired": {
+      "CookTime": 22,
+      "PrepTime": 14,
+      "TotalTime": 58
+    },
+    "Difficulty": "Hard",
+    "Description": "A delicious recipe for Fish Fry.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "12 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "10 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "5 min"
+      },
+      {
+        "Instruction": "Follow step 8 carefully.",
+        "StepNumber": 8,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 9 carefully.",
+        "StepNumber": 9,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 10 carefully.",
+        "StepNumber": 10,
+        "Duration": "14 min"
+      },
+      {
+        "Instruction": "Follow step 11 carefully.",
+        "StepNumber": 11,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 12 carefully.",
+        "StepNumber": 12,
+        "Duration": "11 min"
+      },
+      {
+        "Instruction": "Follow step 13 carefully.",
+        "StepNumber": 13,
+        "Duration": "13 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": true,
+        "Quantity": 126,
+        "Name": "Turmeric",
+        "Unit": "cups"
+      },
+      {
+        "Optional": false,
+        "Quantity": 50,
+        "Name": "Turmeric",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 416,
+        "Name": "Ginger",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 421,
+        "Name": "Coriander Leaves",
+        "Unit": "cups"
+      },
+      {
+        "Optional": true,
+        "Quantity": 344,
+        "Name": "Garam Masala",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 295,
+        "Name": "Paneer",
+        "Unit": "grams"
+      }
+    ],
+    "Title": "Fish Fry",
+    "Statistics": {
+      "LikeCount": 44,
+      "RatingCount": 14,
+      "ViewCount": 77
+    },
+    "AuthorID": "user_004",
+    "id": "ivjyKsILOvEyUqqcprTv"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:19.361765+00:00",
+    "AuthorName": "chefA",
+    "TimeRequired": {
+      "CookTime": 35,
+      "PrepTime": 23,
+      "TotalTime": 77
+    },
+    "Difficulty": "Hard",
+    "Description": "A delicious recipe for Egg Curry.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "5 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "5 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "11 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "5 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "9 min"
+      },
+      {
+        "Instruction": "Follow step 8 carefully.",
+        "StepNumber": 8,
+        "Duration": "14 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 355,
+        "Name": "Green Chili",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 77,
+        "Name": "Paneer",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 359,
+        "Name": "Ginger",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 222,
+        "Name": "Turmeric",
+        "Unit": "pieces"
+      },
+      {
+        "Optional": true,
+        "Quantity": 170,
+        "Name": "Tomato",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 90,
+        "Name": "Mutton",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 310,
+        "Name": "Paneer",
+        "Unit": "grams"
+      }
+    ],
+    "Title": "Egg Curry",
+    "Statistics": {
+      "LikeCount": 63,
+      "RatingCount": 7,
+      "ViewCount": 74
+    },
+    "AuthorID": "user_001",
+    "id": "kQCF1FDd6FhOFRgGCt5n"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:17.007414+00:00",
+    "AuthorName": "chefA",
+    "TimeRequired": {
+      "CookTime": 41,
+      "PrepTime": 10,
+      "TotalTime": 71
+    },
+    "Difficulty": "Medium",
+    "Description": "A delicious recipe for Mutton Gravy.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "11 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "12 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "2 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "9 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "3 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "14 min"
+      },
+      {
+        "Instruction": "Follow step 8 carefully.",
+        "StepNumber": 8,
+        "Duration": "12 min"
+      },
+      {
+        "Instruction": "Follow step 9 carefully.",
+        "StepNumber": 9,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 10 carefully.",
+        "StepNumber": 10,
+        "Duration": "14 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": true,
+        "Quantity": 269,
+        "Name": "Garam Masala",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 444,
+        "Name": "Turmeric",
+        "Unit": "cups"
+      },
+      {
+        "Optional": true,
+        "Quantity": 153,
+        "Name": "Butter",
+        "Unit": "ml"
+      },
+      {
+        "Optional": false,
+        "Quantity": 489,
+        "Name": "Salt",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 468,
+        "Name": "Mutton",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 490,
+        "Name": "Ginger",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 291,
+        "Name": "Garam Masala",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": true,
+        "Quantity": 35,
+        "Name": "Oil",
+        "Unit": "pieces"
+      }
+    ],
+    "Title": "Mutton Gravy",
+    "Statistics": {
+      "LikeCount": 16,
+      "RatingCount": 20,
+      "ViewCount": 48
+    },
+    "AuthorID": "user_001",
+    "id": "lZQ5vz0gWXqTTBglSMYW"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:34:39.227212+00:00",
+    "AuthorName": "yashaher",
+    "TimeRequired": {
+      "CookTime": 45,
+      "PrepTime": 15,
+      "TotalTime": 60
+    },
+    "Difficulty": "Medium",
+    "Description": "Traditional homemade Indian chicken curry.",
+    "Steps": [
+      {
+        "Instruction": "Turn on gas, put cooker on burner, heat for 20–30 sec",
+        "StepNumber": 1,
+        "Duration": "30 sec"
+      },
+      {
+        "Instruction": "Wash chicken and put into bowl",
+        "StepNumber": 2,
+        "Duration": "5 min"
+      },
+      {
+        "Instruction": "Add oil, turmeric, garam masala, jeera in cooker and stir",
+        "StepNumber": 3,
+        "Duration": "3 min"
+      },
+      {
+        "Instruction": "Add 2 cups (≈200 ml) water and stir",
+        "StepNumber": 4,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Add chicken, close lid of cooker",
+        "StepNumber": 5,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Boil chicken for 10–15 min (2–3 whistles)",
+        "StepNumber": 6,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Check if cooked, remove chicken and keep broth aside",
+        "StepNumber": 7,
+        "Duration": "5 min"
+      },
+      {
+        "Instruction": "If not cooked, repeat boiling step",
+        "StepNumber": 8,
+        "Duration": "variable"
+      },
+      {
+        "Instruction": "Heat pan with 2 tbsp oil",
+        "StepNumber": 9,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Add ginger-garlic paste & chicken masala, stir",
+        "StepNumber": 10,
+        "Duration": "3 min"
+      },
+      {
+        "Instruction": "Add boiled chicken into pan, stir",
+        "StepNumber": 11,
+        "Duration": "10 min"
+      },
+      {
+        "Instruction": "Add broth and cook",
+        "StepNumber": 12,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Add salt & chicken masala",
+        "StepNumber": 13,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Cook for 20–30 min until gravy thickens",
+        "StepNumber": 14,
+        "Duration": "30 min"
+      },
+      {
+        "Instruction": "Add coriander leaves for garnish",
+        "StepNumber": 15,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Turn off gas. Chicken curry is ready",
+        "StepNumber": 16,
+        "Duration": "1 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 500,
+        "Name": "Chicken",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 1,
+        "Name": "Turmeric Powder",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 1,
+        "Name": "Chicken Masala",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 2,
+        "Name": "Ginger-Garlic Paste",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 1,
+        "Name": "Garam Masala",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 2,
+        "Name": "Jeera",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 2,
+        "Name": "Oil",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 2,
+        "Name": "Salt",
+        "Unit": "tsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 500,
+        "Name": "Water",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 1,
+        "Name": "Coriander Leaves",
+        "Unit": "small handful"
+      }
+    ],
+    "Title": "Chicken Curry",
+    "Statistics": {
+      "LikeCount": 0,
+      "RatingCount": 0,
+      "ViewCount": 0
+    },
+    "AuthorID": "ccCizSDy7KajwWKJ5ZDx",
+    "id": "q7tRKrF8cbiuUzbgRime"
+  },
+  {
+    "CreatedAt": "2025-11-21T10:39:17.776343+00:00",
+    "AuthorName": "chefA",
+    "TimeRequired": {
+      "CookTime": 30,
+      "PrepTime": 20,
+      "TotalTime": 53
+    },
+    "Difficulty": "Medium",
+    "Description": "A delicious recipe for Lemon Rice.",
+    "Steps": [
+      {
+        "Instruction": "Follow step 1 carefully.",
+        "StepNumber": 1,
+        "Duration": "14 min"
+      },
+      {
+        "Instruction": "Follow step 2 carefully.",
+        "StepNumber": 2,
+        "Duration": "15 min"
+      },
+      {
+        "Instruction": "Follow step 3 carefully.",
+        "StepNumber": 3,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 4 carefully.",
+        "StepNumber": 4,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 5 carefully.",
+        "StepNumber": 5,
+        "Duration": "12 min"
+      },
+      {
+        "Instruction": "Follow step 6 carefully.",
+        "StepNumber": 6,
+        "Duration": "3 min"
+      },
+      {
+        "Instruction": "Follow step 7 carefully.",
+        "StepNumber": 7,
+        "Duration": "7 min"
+      },
+      {
+        "Instruction": "Follow step 8 carefully.",
+        "StepNumber": 8,
+        "Duration": "1 min"
+      },
+      {
+        "Instruction": "Follow step 9 carefully.",
+        "StepNumber": 9,
+        "Duration": "4 min"
+      },
+      {
+        "Instruction": "Follow step 10 carefully.",
+        "StepNumber": 10,
+        "Duration": "6 min"
+      },
+      {
+        "Instruction": "Follow step 11 carefully.",
+        "StepNumber": 11,
+        "Duration": "13 min"
+      },
+      {
+        "Instruction": "Follow step 12 carefully.",
+        "StepNumber": 12,
+        "Duration": "7 min"
+      }
+    ],
+    "Ingredients": [
+      {
+        "Optional": false,
+        "Quantity": 321,
+        "Name": "Onion",
+        "Unit": "grams"
+      },
+      {
+        "Optional": false,
+        "Quantity": 142,
+        "Name": "Curd",
+        "Unit": "cups"
+      },
+      {
+        "Optional": true,
+        "Quantity": 292,
+        "Name": "Garam Masala",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 438,
+        "Name": "Eggs",
+        "Unit": "ml"
+      },
+      {
+        "Optional": true,
+        "Quantity": 263,
+        "Name": "Tomato",
+        "Unit": "tbsp"
+      },
+      {
+        "Optional": false,
+        "Quantity": 209,
+        "Name": "Chicken",
+        "Unit": "ml"
+      },
+      {
+        "Optional": false,
+        "Quantity": 301,
+        "Name": "Cumin Seeds",
+        "Unit": "ml"
+      },
+      {
+        "Optional": false,
+        "Quantity": 118,
+        "Name": "Coriander Powder",
+        "Unit": "grams"
+      }
+    ],
+    "Title": "Lemon Rice",
+    "Statistics": {
+      "LikeCount": 4,
+      "RatingCount": 1,
+      "ViewCount": 39
+    },
+    "AuthorID": "user_001",
+    "id": "ztDF1BzIylk9Q86dkett"
+  }
+]
